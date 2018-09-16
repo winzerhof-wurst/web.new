@@ -19,7 +19,7 @@
           </div>
         </b-navbar>
 
-        <div id="wiwu-content" class="container main">
+        <div id="wiwu-main" class="container main">
             <slot />
         </div>
 
@@ -34,7 +34,7 @@
 </template>
 
 <style>
-#wiwu-content {
+#wiwu-main {
   padding-top: 70px;
 }
 
