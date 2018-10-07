@@ -4,7 +4,7 @@ const baseConfig = require('./webpack.base.config.js')
 const VueSSRClientPlugin = require('vue-server-renderer/client-plugin')
 
 module.exports = merge(baseConfig, {
-    mode: 'production',
+    mode: 'development',
 
     entry: [
         path.join(__dirname, 'entry-client.js'),

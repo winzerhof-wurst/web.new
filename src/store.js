@@ -23,7 +23,11 @@ export function createStore() {
     return new Vuex.Store({
         state: {
             wines: [],
-            tidbits: []
+            tidbits: [],
+            cart: {
+                wines: {},
+                tidbits: {},
+            }
         },
         actions: {
             fetchWines({ commit }) {
@@ -40,9 +44,38 @@ export function createStore() {
         mutations: {
             setWines(state, { wines }) {
                 state.wines = wines
+                wines.forEach(wine => {
+                    state.cart.wines[wine.id] = 0
+                })
+            },
+            updateWineQuantity(state, { wineId, quantity }) {
+                state.cart.wines[wineId] = quantity
+            },
+            addSixBottlesToCart(state, { wineId }) {
+                state.cart.wines[wineId] += 6
+            },
+            addTwelveBottlesToCart(state, { wineId }) {
+                state.cart.wines[wineId] += 12
             },
             setTidbits(state, { tidbits }) {
                 state.tidbits = tidbits
+                tidbits.forEach(tidbit => {
+                    state.cart.tidbits[tidbit.id] = 0
+                })
+            },
+            addTidbitToCart(state, { tidbitId }) {
+                state.cart.tidbits[tidbitId]++;
+            },
+            updateTidbitQuantity(state, { tidbitId, quantity }) {
+                state.cart.tidbits[tidbitId] = quantity
+            },
+        },
+        getters: {
+            cartWineQuantity: state => (wineId) => {
+                return state.cart.wines[wineId]
+            },
+            cartTidbitQuantity: state => (tidbitId) => {
+                return state.cart.tidbits[tidbitId]
             }
         }
     })

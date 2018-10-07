@@ -9,9 +9,13 @@
         </div>
         <div class="add-to-cart">
             <div class="input-group">
-                <input type="text" :value="quantity" class="form-control">
+                <input type="text"
+                       v-model="quantity"
+                       class="form-control">
                 <span class="input-group-btn">
-                    <button class="btn btn-default add-1" type="button">+1</button>
+                    <button class="btn btn-default add-1"
+                            type="button"
+                            v-on:click="addToCart">+1</button>
                 </span>
             </div>
         </div>
@@ -32,9 +36,32 @@ export default {
     return {
       id: this.data.id,
       name: this.data.name,
-      price: this.data.price,
-      quantity: 0
+      price: this.data.price
     };
+  },
+  computed: {
+    quantity: {
+      get() {
+        return this.$store.getters.cartTidbitQuantity(this.data.id);
+      },
+      set(raw) {
+        let quantity = parseInt(raw.replace(/\D/g, ""), 10);
+        if (isNaN(quantity)) {
+          quantity = 0;
+        }
+        this.$store.commit("updateTidbitQuantity", {
+          tidbitId: this.data.id,
+          quantity
+        });
+      }
+    }
+  },
+  methods: {
+    addToCart() {
+      this.$store.commit("addTidbitToCart", {
+        tidbitId: this.data.id
+      });
+    }
   }
 };
 </script>
