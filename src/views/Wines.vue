@@ -4,23 +4,23 @@
 
         <ContentTile>
             <h2>Weißweine</h2>
-            <div id="white-wine-list"></div>
+            <Wine v-for="wine in whiteWines" :key="wine.id" :data="wine"/>
         </ContentTile>
 
         <ContentTile>
             <h2>Rotweine</h2>
-            <div id="red-wine-list"></div>
+            <Wine v-for="wine in redWines" :key="wine.id" :data="wine"/>
         </ContentTile>
 
         <ContentTile>
             <h2>Prädikatsweine</h2>
-            <div id="special-quality-wine-list"></div>
+            <Wine v-for="wine in specialWines" :key="wine.id" :data="wine"/>
         </ContentTile>
 
 
         <ContentTile>
             <h2>Landweine - 1l</h2>
-            <div id="wine-1l-list"></div>
+            <Wine v-for="wine in oneLiter" :key="wine.id" :data="wine"/>
         </ContentTile>
 
 
@@ -34,65 +34,7 @@
                 <br>
                 <br> Die Versandkosten sind gewichts- und entfernungsabhängig und werden Ihnen vor der Auslieferung bekanntgegeben.
             </p>
-            <div class="container-fluid">
-                <div class="container-fluid">
-                    <div class="form-group col-md-6">
-                        <label for="firstname">Vorname</label>
-                        <input type="text" class="form-control" id="firstname" placeholder="Vorname">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="lastname">Nachname</label>
-                        <input type="text" class="form-control" id="lastname" placeholder="Nachname">
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="form-group col-md-9">
-                        <label for="street">Straße</label>
-                        <input type="text" class="form-control" id="street" placeholder="Straße">
-                    </div>
-                    <div class="form-group col-md-3">
-                        <label for="nr">Nr.</label>
-                        <input type="text" class="form-control" id="nr" placeholder="Nr.">
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="form-group col-md-3">
-                        <label for="zipcode">PLZ</label>
-                        <input type="text" class="form-control" id="zipcode" placeholder="PLZ">
-                    </div>
-                    <div class="form-group col-md-9">
-                        <label for="city">Ort</label>
-                        <input type="text" class="form-control" id="city" placeholder="Ort">
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="form-group col-md-6">
-                        <label for="telephone">Telefon</label>
-                        <input type="text" class="form-control" id="telephone" placeholder="Telefon">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="fax">Fax</label>
-                        <input type="text" class="form-control" id="fax" placeholder="Fax">
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="form-group col-md-6">
-                        <label for="email">E-Mail</label>
-                        <input type="email" class="form-control" id="email" placeholder="E-Mail">
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="form-group col-md-12">
-                        <label for="comment">Anmerkungen</label>
-                        <textarea id="comment" class="form-control" rows="3" placeholder="Anmerkungen"></textarea>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div id="alert-error" class="alert alert-danger" role="alert" style="display: none">Fehler beim Speichern der Bestellung</div>
-                    <div id="alert-success" class="alert alert-success" role="alert" style="display: none">Ihre Bestellung wurde gespeichert. Vielen Dank!</div>
-                    <button id="submit-wines" class="btn btn-default center-block" data-loading-text="Bitte warten...">Bestellung absenden</button>
-                </div>
-            </div>
+            <ShopForm />
         </ContentTile>
     </Content>
 </template>
@@ -100,11 +42,32 @@
 <script>
 import Content from "../components/Content.vue";
 import ContentTile from "../components/ContentTile.vue";
+import ShopForm from "../components/ShopForm.vue";
+import Wine from "../components/Wine.vue";
 
 export default {
   components: {
     Content,
-    ContentTile
+    ContentTile,
+    ShopForm,
+    Wine
+  },
+  asyncData({ store, route }) {
+    return store.dispatch("fetchWines");
+  },
+  computed: {
+    whiteWines: function() {
+      return this.$store.state.wines.filter(w => w.type === "W");
+    },
+    redWines: function() {
+      return this.$store.state.wines.filter(w => w.type === "R");
+    },
+    specialWines: function() {
+      return this.$store.state.wines.filter(w => w.type === "Q");
+    },
+    oneLiter: function() {
+      return this.$store.state.wines.filter(w => w.type === "1L");
+    }
   }
 };
 </script>

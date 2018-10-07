@@ -1,0 +1,40 @@
+<template>
+    <ShopItem>
+        <div class="description">
+            <strong>{{name}}</strong>
+            <br>
+        </div>
+        <div class="unit-price">
+            €{{price}}
+        </div>
+        <div class="add-to-cart">
+            <div class="input-group">
+                <input type="text" :value="quantity" class="form-control">
+                <span class="input-group-btn">
+                    <button class="btn btn-default add-1" type="button">+1</button>
+                </span>
+            </div>
+        </div>
+    </ShopItem>
+</template>
+
+<script>
+import ShopItem from "./ShopItem.vue";
+
+export default {
+  components: {
+    ShopItem
+  },
+  props: {
+    data: Object
+  },
+  data() {
+    return {
+      id: this.data.id,
+      name: this.data.name,
+      price: this.data.price,
+      quantity: 0
+    };
+  }
+};
+</script>
