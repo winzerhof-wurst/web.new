@@ -1,3 +1,4 @@
+const axios = require('axios')
 const express = require('express')
 const { createBundleRenderer } = require('vue-server-renderer')
 
@@ -14,6 +15,28 @@ const server = express()
 
 server.use(express.static('dist'))
 
+server.get('/api/wines', (req, res) => {
+    const url = process.env.CORE_URL + '/api/wines'
+    const wines = axios.get(url)
+        .then(resp => resp.data)
+
+    wines.then(wines => res.json(wines)).catch(e => {
+        res.status(500)
+        res.send(e)
+    })
+})
+
+server.get('/api/tidbits', (req, res) => {
+    const url = process.env.CORE_URL + '/api/tidbits'
+    const wines = axios.get(url)
+        .then(resp => resp.data)
+
+    wines.then(tidbits => res.json(tidbits)).catch(e => {
+        res.status(500)
+        res.send(e)
+    })
+})
+
 server.get('*', (req, res) => {
     const context = { url: req.url }
 
@@ -22,7 +45,7 @@ server.get('*', (req, res) => {
             if (err.code === 404) {
                 res.status(404).end('Page not found')
             } else {
-                res.status(500).end('Error: ' + JSON.stringify(err))
+                res.status(500).end('Error: ' + err)
             }
         } else {
             res.end(html)
