@@ -1,4 +1,5 @@
 const axios = require('axios')
+const bodyParser = require('body-parser')
 const express = require('express')
 const { createBundleRenderer } = require('vue-server-renderer')
 
@@ -12,7 +13,7 @@ const renderer = createBundleRenderer(serverBundle, {
 })
 
 const server = express()
-
+server.use(bodyParser.json())
 server.use(express.static('dist'))
 
 server.get('/api/wines', (req, res) => {
@@ -34,6 +35,28 @@ server.get('/api/tidbits', (req, res) => {
     wines.then(tidbits => res.json(tidbits)).catch(e => {
         res.status(500)
         res.send(e)
+    })
+})
+
+server.post('/api/orders', (req, res) => {
+    const url = process.env.CORE_URL + '/api/orders'
+    axios.post(url, req.body)
+        .then(resp => resp.data)
+        .then(() => res.json({}))
+        .catch(e => {
+            res.status(500)
+            res.send(e.toString())
+    })
+})
+
+server.post('/api/rooms/book', (req, res) => {
+    const url = process.env.CORE_URL + '/api/rooms/book'
+    axios.post(url, req.body)
+        .then(resp => resp.data)
+        .then(() => res.json({}))
+        .catch(e => {
+            res.status(500)
+            res.send(e.toString())
     })
 })
 

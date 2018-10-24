@@ -16,16 +16,45 @@ export function createStore(coreUrl) {
         },
         actions: {
             fetchWines({ commit }) {
-                const url = (coreUrl ? coreUrl:'') + '/api/wines'
+                const url = (coreUrl ? coreUrl : '') + '/api/wines'
                 return Axios.get(url)
                     .then(resp => resp.data)
                     .then(wines => commit('setWines', { wines }))
             },
             fetchTidbits({ commit }) {
-                const url = (coreUrl ? coreUrl:'') + '/api/tidbits'
+                const url = (coreUrl ? coreUrl : '') + '/api/tidbits'
                 return Axios.get(url)
                     .then(resp => resp.data)
                     .then(tidbits => commit('setTidbits', { tidbits }))
+            },
+            submitOrder({ state, commit }, data) {
+                data.wines = []
+                state.wines.forEach(wine => {
+                    if (state.cart.wines[wine.id]) {
+                        data.wines.push({
+                            id: wine.id,
+                            quantity: state.cart.wines[wine.id],
+                        })
+                    }
+                })
+                data.tidbits = []
+                state.tidbits.forEach(tidbit => {
+                    if (state.cart.tidbits[tidbit.id]) {
+                        data.tidbits.push({
+                            id: tidbit.id,
+                            quantity: state.cart.tidbits[tidbit.id],
+                        })
+                    }
+                })
+
+                const url = '/api/orders'
+                return Axios.post(url, data)
+                    .then(() => commit('resetCart'))
+            },
+            sendBookingRequest({}, data) {
+                const url = (coreUrl ? coreUrl : '') + '/api/rooms/book'
+                return Axios.post(url, data)
+                    .then(resp => resp.data)
             }
         },
         mutations: {
@@ -56,6 +85,10 @@ export function createStore(coreUrl) {
             updateTidbitQuantity(state, { tidbitId, quantity }) {
                 state.cart.tidbits[tidbitId] = quantity
             },
+            resetCart(state) {
+                state.wines.forEach(wine => state.cart.wines[wine.id] = 0)
+                state.tidbits.forEach(tidbit => state.cart.tidbits[tidbit.id] = 0)
+            }
         },
         getters: {
             cartWineQuantity: state => (wineId) => {

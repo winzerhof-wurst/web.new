@@ -52,73 +52,7 @@
 
         <ContentTile>
             <h2>Anfrage</h2>
-            <form>
-                <div class="row">
-                    <div class="form-group col-md-6 col-lg-3">
-                        <input type="date" class="form-control" id="date" :value="today" :min="today">
-                    </div>
-                    <div class="form-group col-md-6 col-lg-3">
-                        <select class="form-control" id="stays">
-                            <option value="1">1 Nacht</option>
-                            <option value="2" selected>2 Nächte</option>
-                            <option value="3">3 Nächte</option>
-                            <option value="4">4 Nächte</option>
-                            <option value="5">5 Nächte</option>
-                            <option value="6">6 Nächte</option>
-                            <option value="7">7 Nächte</option>
-                            <option value="8">8 Nächte</option>
-                            <option value="9">9 Nächte</option>
-                            <option value="10">10 Nächte</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-group col-md-6 col-lg-3">
-                        <select class="form-control" id="persons">
-                            <option value="1">1 Person</option>
-                            <option value="2" selected>2 Personen</option>
-                            <option value="3">3 Personen</option>
-                            <option value="4">4 Personen</option>
-                            <option value="5">5 Personen</option>
-                            <option value="6">6 Personen</option>
-                            <option value="7">7 Personen</option>
-                            <option value="8">8 Personen</option>
-                            <option value="9">9 Personen</option>
-                            <option value="10">10 Personen</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-md-6 col-lg-3">
-                        <select class="form-control" id="rooms">
-                            <option value="1" selected>1 Zimmer</option>
-                            <option value="2">2 Zimmer</option>
-                            <option value="3">3 Zimmer</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-group col-md-12 col-lg-6">
-                        <label for="firstname">Vorname</label>
-                        <input type="text" class="form-control" id="firstname" placeholder="Vorname" required>
-                    </div>
-                    <div class="form-group col-md-12 col-lg-6">
-                        <label for="lastname">Nachname</label>
-                        <input type="text" class="form-control" id="lastname" placeholder="Nachname" required>
-                    </div>
-                    <div class="form-group col-md-12 col-lg-6">
-                        <label for="firstname">Telefonnummer</label>
-                        <input type="tel" class="form-control" id="telephone" placeholder="Telefonnummer" required>
-                    </div>
-                    <div class="form-group col-md-12 col-lg-6">
-                        <label for="lastname">E-Mail</label>
-                        <input type="email" class="form-control" id="email" placeholder="E-Mail" required>
-                    </div>
-                    <div class="form-group col-md-12 col-lg-6">
-                        <div id="alert-error" class="alert alert-danger" role="alert" style="display: none">Fehler beim Senden der Anfrage</div>
-                        <div id="alert-success" class="alert alert-success" role="alert" style="display: none">Ihre Anfrage wurde gesendet. Vielen Dank!</div>
-                        <button type="submit" class="btn btn-default" id="submit-rooms">Anfrage senden</button>
-                    </div>
-                </div>
-            </form>
+            <Book />
         </ContentTile>
 
         <ContentTile>
@@ -196,11 +130,13 @@
 </template>
 
 <script>
+import Book from "../components/Book.vue";
 import Content from "../components/Content.vue";
 import ContentTile from "../components/ContentTile.vue";
 
 export default {
   components: {
+    Book,
     Content,
     ContentTile
   },
