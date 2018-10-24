@@ -7,6 +7,7 @@ module.exports = merge(baseConfig, {
     mode: 'development',
 
     entry: [
+        '@babel/polyfill',
         path.join(__dirname, 'entry-client.js'),
         'bootstrap/dist/css/bootstrap.css',
         'bootstrap-vue/dist/bootstrap-vue.css'
