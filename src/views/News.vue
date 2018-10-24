@@ -3,6 +3,34 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
+            <h2>Unser Genießerzimmer</h2>
+            <p>
+                <img class="img-fluid" alt="" :src="require('../images/20181021_geniesserzimmer.jpg')">
+                <br>
+                <br>
+                <img class="img-fluid" alt="" :src="require('../images/rooms_geniesser_1.jpg')">
+                <br>
+                <br>
+                <img class="img-fluid" alt="" :src="require('../images/rooms_geniesser_2.jpg')">
+                <br>
+                <br>
+                Nach 10 Jahren erfolgreicher Vermietung unserer drei Gästezimmer bieten wir nun auch ein Genießerzimmer für Sie an. Genießen Sie das Weinviertel in einem noch geräumigeren Zimmer und eigenem Balkon.
+                <br>
+                Wir freuen uns auf Ihre Buchung!
+            </p>
+        </ContentTile>
+
+        <ContentTile>
+            <h2>Weinlese 2018</h2>
+            <p>
+                Es ist vollbracht. 3 Wochen früher als normal starteten wir am 27. August mit unserem Müller Thurgau in die Weinlese. Am 21. September ernteten wir unsere letzten Trauben, unseren Merlot. Wir freuen uns bereits auf den neuen Jahrgang.
+            </p>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/GojiUh4saPY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </ContentTile>
+
+        <ContentTile>
             <h2>Radfreundlicher Beherbergungsbetrieb</h2>
             <p>
                 <img class="img-fluid"
