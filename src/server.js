@@ -60,6 +60,10 @@ server.post('/api/rooms/book', (req, res) => {
     })
 })
 
+server.get('/sitemap.xml', (req, res) => {
+    res.sendFile(__dirname + '/assets/sitemap.xml')
+})
+
 server.get('*', (req, res) => {
     const context = { url: req.url }
 
