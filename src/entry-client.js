@@ -1,6 +1,9 @@
 import Vue from 'vue'
+import VueMatomo from 'vue-matomo'
 
 import { createApp } from './app'
+
+const { app, router, store } = createApp()
 
 Vue.mixin({
   beforeMount() {
@@ -17,7 +20,15 @@ Vue.mixin({
   }
 })
 
-const { app, router, store } = createApp()
+Vue.use(VueMatomo, {
+  host: 'https://piwik.wuc.me',
+  siteId: 2,
+  router,
+
+  // Changes the default .js and .php endpoint's filename
+  // Default: 'piwik'
+  trackerFileName: 'piwik'
+});
 
 if (window.__INITIAL_STATE__) {
   console.info('loading state', window.__INITIAL_STATE__.wines);

@@ -1,6 +1,5 @@
 import BootstrapVue from 'bootstrap-vue'
 import Vue from 'vue'
-import VueMatomo from 'vue-matomo'
 
 import App from './App.vue'
 import { createRouter } from './router'
@@ -16,16 +15,6 @@ export function createApp(onServer) {
     const store = createStore(coreUrl)
 
     sync(store, router)
-
-    Vue.use(VueMatomo, {
-        host: 'https://piwik.wuc.me',
-        siteId: 2,
-        router,
-
-        // Changes the default .js and .php endpoint's filename
-        // Default: 'piwik'
-        trackerFileName: 'piwik'
-    });
 
     const app = new Vue({
         router,
