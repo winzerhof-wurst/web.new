@@ -61,7 +61,7 @@ export function createStore(coreUrl) {
             setWines(state, { wines }) {
                 state.wines = wines
                 wines.forEach(wine => {
-                    state.cart.wines[wine.id] = 0
+                    Vue.set(state.cart.wines, wine.id, 0)
                 })
             },
             updateWineQuantity(state, { wineId, quantity }) {
@@ -76,7 +76,7 @@ export function createStore(coreUrl) {
             setTidbits(state, { tidbits }) {
                 state.tidbits = tidbits
                 tidbits.forEach(tidbit => {
-                    state.cart.tidbits[tidbit.id] = 0
+                    Vue.set(state.cart.tidbits, tidbit.id, 0)
                 })
             },
             addTidbitToCart(state, { tidbitId }) {
