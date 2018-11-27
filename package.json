@@ -34,7 +34,7 @@
     "body-parser": "^1.18.3",
     "bootstrap-vue": "^2.0.0-rc.11",
     "express": "^4.16.4",
-    "nodemon": "^1.18.4",
+    "nodemon": "^1.18.7",
     "vue": "^2.5.17",
     "vue-matomo": "^0.5.1",
     "vue-router": "^3.0.2",
