@@ -36,7 +36,7 @@
     "express": "^4.16.3",
     "nodemon": "^1.18.4",
     "vue": "^2.5.17",
-    "vue-matomo": "^0.2.0",
+    "vue-matomo": "^0.5.1",
     "vue-router": "^3.0.1",
     "vue-server-renderer": "^2.5.17",
     "vue-template-compiler": "^2.5.17",
