@@ -3,6 +3,21 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
+            <h2>Weihnachtsbinkerl</h2>
+            <img class="img-fluid" alt="" :src="require('../images/20181129_weihnachtbinkerl.jpg')">
+            <p>
+                Weihnachten steht vor der Tür und die Suche nach einem geeigneten Geschenk beginnt.
+                Wir haben da etwas für Sie: das Binkerl aus dem Weinviertel, gefüllt mit unseren
+                hofeigenen Produkten. Bereiten Sie Ihren Liebsten Freude und unterstützen Sie dabei
+                noch Familien in Not in Österreich. Wir spenden pro verkauftem Binkerl die
+                Hälfte des Verkaufspreises an das Ö3 Weihnachtswunder. Die Binkerl, in zwei verschiedenen
+                Größen erhältlich, können Sie am 1. &amp; 2. Dezember am Waizenkirchner Schlossadvent,
+                am 15. Dezember am Leondinger Wochenmarkt, sowie bis 19. Dezember bei uns am Winzerhof
+                erwerben.
+            </p>
+        </ContentTile>
+
+        <ContentTile>
             <h2>Unser Genießerzimmer</h2>
             <p>
                 <img class="img-fluid" alt="" :src="require('../images/20181021_geniesserzimmer.jpg')">
