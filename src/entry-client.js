@@ -1,7 +1,12 @@
+import { init, captureMessage } from '@sentry/browser';
 import Vue from 'vue'
 import VueMatomo from 'vue-matomo'
 
 import { createApp } from './app'
+
+init({
+  dsn: 'https://57efaee6920441e0a18e066d82aeb047@sentry.io/1211865',
+})
 
 const { app, router, store } = createApp()
 
