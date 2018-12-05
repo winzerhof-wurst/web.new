@@ -1,3 +1,4 @@
+import _ from 'lodash'
 import Axios from 'axios'
 import Vue from 'vue'
 import Vuex from 'vuex'
@@ -59,7 +60,7 @@ export function createStore(coreUrl) {
         },
         mutations: {
             setWines(state, { wines }) {
-                state.wines = wines
+                state.wines = _.sortBy(wines, ['order', 'name', 'year'])
                 wines.forEach(wine => {
                     Vue.set(state.cart.wines, wine.id, 0)
                 })
