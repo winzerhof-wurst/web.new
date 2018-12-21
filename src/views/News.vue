@@ -14,17 +14,12 @@
         </ContentTile>
 
         <ContentTile>
-            <h2>Weihnachtsbinkerl</h2>
-            <img class="img-fluid" alt="" :src="require('../images/20181129_weihnachtbinkerl.jpg')">
+            <h2>Wir spenden €310 für das Ö3-Weihnachtswunder!</h2>
+            <img class="img-fluid" alt="" :src="require('../images/20181221_weihnachtwunder.jpg')">
             <p>
-                Weihnachten steht vor der Tür und die Suche nach einem geeigneten Geschenk beginnt.
-                Wir haben da etwas für Sie: das Binkerl aus dem Weinviertel, gefüllt mit unseren
-                hofeigenen Produkten. Bereiten Sie Ihren Liebsten Freude und unterstützen Sie dabei
-                noch Familien in Not in Österreich. Wir spenden pro verkauftem Binkerl die
-                Hälfte des Verkaufspreises an das Ö3 Weihnachtswunder. Die Binkerl, in zwei verschiedenen
-                Größen erhältlich, können Sie am 1. &amp; 2. Dezember am Waizenkirchner Schlossadvent,
-                am 15. Dezember am Leondinger Wochenmarkt, sowie bis 19. Dezember bei uns am Winzerhof
-                erwerben.
+                Wir möchten uns bei all unseren Kunden bedanken, denn durch den Verkauf unserer Binkerl
+                und einem Teil unseres Trinkgeldes ist eine Spendensumme von €310 zusammenkommen. Mit
+                dieser Spende wollen wir Familien in Österreich unterstützen.
             </p>
         </ContentTile>
 
