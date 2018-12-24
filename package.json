@@ -29,7 +29,7 @@
   "homepage": "https://github.com/winzerhof-wurst/web#readme",
   "browserslist": "> 0.25%, not dead",
   "dependencies": {
-    "@babel/polyfill": "^7.2.3",
+    "@babel/polyfill": "^7.2.5",
     "@sentry/browser": "^4.4.2",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
