@@ -41,18 +41,18 @@ export default {
   },
   data() {
     var marketDates = [
-      new Date(2018, 0, 20),
-      new Date(2018, 1, 17),
-      new Date(2018, 2, 17),
-      new Date(2018, 3, 21),
-      new Date(2018, 4, 19),
-      new Date(2018, 5, 16),
-      new Date(2018, 6, 21),
-      new Date(2018, 7, 18),
-      new Date(2018, 8, 15),
-      new Date(2018, 9, 20),
-      new Date(2018, 10, 17),
-      new Date(2018, 11, 15)
+      new Date(2019, 0, 19),
+      new Date(2019, 1, 16),
+      new Date(2019, 2, 16),
+      new Date(2019, 3, 20),
+      new Date(2019, 4, 18),
+      new Date(2019, 5, 15),
+      new Date(2019, 6, 20),
+      new Date(2019, 7, 17),
+      new Date(2019, 8, 21),
+      new Date(2019, 9, 19),
+      new Date(2019, 10, 16),
+      new Date(2019, 11, 21)
     ];
     var today = new Date();
 
