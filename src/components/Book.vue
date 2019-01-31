@@ -2,7 +2,7 @@
     <form>
         <div class="row">
             <div class="form-group col-md-6 col-lg-3">
-                <input type="date" class="form-control" id="date" :value="today" :min="today">
+                <input type="date" class="form-control" id="date" v-model="date" :min="today">
             </div>
             <div class="form-group col-md-6 col-lg-3">
                 <select class="form-control" v-model="stays" :disabled="loading">
@@ -72,10 +72,11 @@
 <script>
 export default {
   data() {
+    const today = new Date().toISOString().substring(0, "1970-01-01".length)
     return {
       loading: false,
-      today: new Date().toISOString().substring(0, "1970-01-01".length),
-      date: undefined,
+      today: today,
+      date: today,
       persons: 2,
       rooms: 1,
       stays: 2,
@@ -97,6 +98,7 @@ export default {
 
       this.$store
         .dispatch("sendBookingRequest", {
+            date: this.date,
             persons: this.persons,
             rooms: this.rooms,
             stays: this.stays,
