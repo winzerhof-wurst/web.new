@@ -3,17 +3,6 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-            <h2>Frohe Weihnachten</h2>
-            <img class="img-fluid" alt="" :src="require('../images/20181214_weihnachten.jpg')">
-            <p>
-                Wir wünschen all unseren Kunden ein frohes Weihnachtsfest und besinnliche Feiertage. Wir möchten uns auch bei allen bedanken,
-                die das Jahr 2018 für uns zu einem sehr erfolgreichen Jahr gemacht haben. Viel Glück und vor allem Gesundheit für 2019.
-                <br>
-                Heinz, Petra und Familie
-            </p>
-        </ContentTile>
-
-        <ContentTile>
             <h2>Wir spenden €310 für das Ö3-Weihnachtswunder!</h2>
             <img class="img-fluid" alt="" :src="require('../images/20181221_weihnachtwunder.jpg')">
             <p>
