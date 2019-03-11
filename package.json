@@ -33,7 +33,7 @@
     "@sentry/browser": "^4.6.4",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
-    "bootstrap-vue": "^2.0.0-rc.13",
+    "bootstrap-vue": "^2.0.0-rc.14",
     "express": "^4.16.4",
     "lodash": "^4.17.11",
     "nodemon": "^1.18.10",
