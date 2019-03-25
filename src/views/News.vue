@@ -5,9 +5,7 @@
         <ContentTile>
             <h2>Weintour Weinviertel</h2>
             <p>
-                Am 27. und 28. April ist es soweit: wir öffnen im Zuge der Weintour unsere Türen. Verkosten und genießen Sie unsere
-                erlesene Weine und erfahren Sie mehr über unser Weingut. An beiden Tagen sind wir von 10 bis 19 Uhr persönlich für
-                Sie da.
+                Am 27. und 28. April ist es wieder soweit: wir öffnen im Zuge der Weintour unsere Türen. Verkosten und genießen Sie unseren neuen Jahrgang und erfahren Sie mehr über unser Weingut. An beiden Tagen sind wir von 10 bis 19 Uhr persönlich für Sie da.
             </p>
             <img class="img-fluid" alt="" :src="require('../images/201904_weintour.jpg')">
             <p>
