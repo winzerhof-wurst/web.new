@@ -36,7 +36,7 @@
     "bootstrap-vue": "^2.0.0-rc.17",
     "express": "^4.16.4",
     "lodash": "^4.17.11",
-    "nodemon": "^1.18.10",
+    "nodemon": "^1.18.11",
     "vue": "^2.6.10",
     "vue-matomo": "^3.7.0",
     "vue-router": "^3.0.2",
