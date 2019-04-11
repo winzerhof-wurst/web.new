@@ -30,7 +30,7 @@
   "browserslist": "> 0.25%, not dead",
   "dependencies": {
     "@babel/polyfill": "^7.4.3",
-    "@sentry/browser": "^4.6.5",
+    "@sentry/browser": "^5.0.7",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "bootstrap-vue": "^2.0.0-rc.17",
