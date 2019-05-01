@@ -1,6 +1,11 @@
 <template>
     <Content>
-        <h1>Weinkarte</h1>
+        <h1>Unsere Weinkarte</h1>
+
+        <ContentTile>
+            <p>Derzeit bewirtschaften wir eine Rebfläche von 10 Hektar. Dabei legen wir unseren Fokus auf Qualitätsweine, besonders auf den klassischen Grüner Veltliner Weinviertel DAC, der vorallem mit seiner knackigen Frucht und seinem gewissen „Pfefferl“ überzeugt. Weitere Rebsorten unseres Betriebes sind Riesling, Gelber Muskateller, Sauvignon Blanc, Müller Thurgau, sowie Blauer Portugieser, Blauer Zweigelt, Merlot und Sankt Laurent. Die Vielfalt unserer Weine können Sie direkt bei uns am Hof verkosten, oder Sie bestellen sich ein paar Flaschen und genießen die Weine zu Hause, denn wie Heinz zu sagen pflegt: „Am wichtigsten ist, dass der Wein auch zu Hause schmeckt und nicht nur in Anwesenheit des Winzers.“</p>
+            <p>Aber am besten überzeugen Sie sich von unseren Weinen selbst!</p>
+        </ContentTile>
 
         <ContentTile>
             <h2>Weißweine</h2>

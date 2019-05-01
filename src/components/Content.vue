@@ -8,9 +8,26 @@
 
             <b-collapse is-nav id="nav_collapse">
               <b-navbar-nav class="flex-fill">
-                <b-nav-item class="flex-grow-1" :to="{name: 'news'}">Aktuelles</b-nav-item>
-                <b-nav-item class="flex-grow-1" :to="{name: 'about'}">Unser Betrieb</b-nav-item>
-                <b-nav-item class="flex-grow-1" :to="{name: 'rooms'}">Gästezimmer</b-nav-item>
+                <b-nav-item-dropdown split
+                                     :to="{name: 'about'}"
+                                     text="Unser Betrieb"
+                                     class="flex-grow-1">
+                  <b-nav-item class="flex-grow-1" :to="{name: 'about'}">Winzerhof</b-nav-item>
+                  <b-nav-item class="flex-grow-1" :to="{name: 'news'}">Aktuelles</b-nav-item>
+                  <b-nav-item class="flex-grow-1" :to="{name: 'events'}">Termine</b-nav-item>
+                  <!--<b-nav-item class="flex-grow-1" :to="{name: 'about-family'}">Familie Wurst</b-nav-item>-->
+                  <!--<b-nav-item class="flex-grow-1" :to="{name: 'ten-reasons'}">10 Gründe</b-nav-item>-->
+                </b-nav-item-dropdown>
+                <b-nav-item-dropdown text="Gästezimmer" class="flex-grow-1">
+                    <b-nav-item :to="{name: 'rooms'}">Gastfreundschaft Wurst</b-nav-item>
+                    <div class="dropdown-divider"></div>
+                    <b-nav-item :to="{name: 'rooms-geniesserzimmer'}">Genießerzimmer</b-nav-item>
+                    <b-nav-item :to="{name: 'rooms-weinfruehling'}">Weinfrühling</b-nav-item>
+                    <b-nav-item :to="{name: 'rooms-weinsommer'}">Weinsommer</b-nav-item>
+                    <b-nav-item :to="{name: 'rooms-weinherbst'}">Weinherbst</b-nav-item>
+                    <div class="dropdown-divider"></div>
+                    <b-nav-item :to="{name: 'rooms-price-book'}">Anfrage &amp; Preise</b-nav-item>
+                </b-nav-item-dropdown>
                 <b-nav-item class="flex-grow-1" :to="{name: 'wines'}">Weinkarte</b-nav-item>
                 <b-nav-item class="flex-grow-1" :to="{name: 'tidbits'}">Schmankerl</b-nav-item>
                 <b-nav-item class="flex-grow-1" :to="{name: 'contact'}">Kontakt</b-nav-item>

@@ -13,19 +13,49 @@ export function createRouter() {
                 component: () => import('./views/Home.vue')
             },
             {
+                path: '/betrieb',
+                name: 'about',
+                component: () => import('./views/about/Index.vue'),
+                meta: {
+                    title: 'Winzerhof Wurst',
+                }
+            },
+            {
                 path: '/aktuelles',
+                redirect: {
+                    name: 'news',
+                }
+            },
+            {
+                path: '/betrieb/aktuelles',
                 name: 'news',
-                component: () => import('./views/News.vue'),
+                component: () => import('./views/about/News.vue'),
                 meta: {
                     title: 'Aktuelles',
                 }
             },
             {
-                path: '/betrieb',
-                name: 'about',
-                component: () => import('./views/About.vue'),
+                path: '/betrieb/termine',
+                name: 'events',
+                component: () => import('./views/about/Events.vue'),
                 meta: {
-                    title: 'Betrieb',
+                    title: 'Termine',
+                }
+            },
+            {
+                path: '/betrieb/zehn-gruende',
+                name: 'ten-reasons',
+                component: () => import('./views/about/TenReasons.vue'),
+                meta: {
+                    title: 'Zehn Gründe',
+                }
+            },
+            {
+                path: '/betrieb/familie-wurst',
+                name: 'about-family',
+                component: () => import('./views/about/Family.vue'),
+                meta: {
+                    title: 'Familie Wurst',
                 }
             },
             {
@@ -55,9 +85,49 @@ export function createRouter() {
             {
                 name: 'rooms',
                 path: '/gaestezimmer',
-                component: () => import('./views/Rooms.vue'),
+                component: () => import('./views/rooms/Index.vue'),
                 meta: {
                     title: 'Gästezimmer',
+                }
+            },
+            {
+                name: 'rooms-weinfruehling',
+                path: '/gaestezimmer/weinfruehling',
+                component: () => import('./views/rooms/Weinfruehling.vue'),
+                meta: {
+                    title: 'Weinfrühling',
+                }
+            },
+            {
+                name: 'rooms-weinsommer',
+                path: '/gaestezimmer/weinsommer',
+                component: () => import('./views/rooms/Weinsommer.vue'),
+                meta: {
+                    title: 'Weinsommer',
+                }
+            },
+            {
+                name: 'rooms-weinherbst',
+                path: '/gaestezimmer/weinherbst',
+                component: () => import('./views/rooms/Weinherbst.vue'),
+                meta: {
+                    title: 'Weinherbst',
+                }
+            },
+            {
+                name: 'rooms-geniesserzimmer',
+                path: '/gaestezimmer/geniesserzimmer',
+                component: () => import('./views/rooms/Geniesserzimmer.vue'),
+                meta: {
+                    title: 'Genießerzimmer',
+                }
+            },
+            {
+                name: 'rooms-price-book',
+                path: '/gaestezimmer/preise-anfrage',
+                component: () => import('./views/rooms/PriceBooking.vue'),
+                meta: {
+                    title: 'Preise und Anfrage',
                 }
             },
             {

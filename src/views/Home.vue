@@ -1,39 +1,43 @@
 <template>
-    <div id="home-wrapper">
-	<h1 class="cover-heading text-center">Winzerhof Wurst</h1>
-	<p class="lead text-center">Weinkultur mit Zukunft</p>
+  <div id="home-wrapper">
+    <h1 class="cover-heading text-center">Winzerhof Wurst</h1>
+    <p class="lead text-center">Weinkultur mit Zukunft</p>
 
-	<div id="home-navigation">
-        <b-link :to="{name: 'news'}">Aktuelles</b-link>
-        <b-link :to="{name: 'about'}">Betrieb</b-link>
-        <b-link :to="{name: 'rooms'}">Gästezimmer</b-link>
-        <b-link :to="{name: 'wines'}">Weinkarte</b-link>
-        <b-link :to="{name: 'tidbits'}">Schmankerl</b-link>
-        <b-link :to="{name: 'contact'}">Kontakt</b-link>
-	</div>
+    <div id="home-navigation">
+      <b-link :to="{name: 'about'}">Betrieb</b-link>
+      <b-link :to="{name: 'news'}">Aktuelles</b-link>
+      <b-link :to="{name: 'rooms'}">Gästezimmer</b-link>
+      <b-link :to="{name: 'wines'}">Weinkarte</b-link>
+    </div>
 
-	<a id="home-rooms" href="/gaestezimmer">
-		<div class="row clearfix">
-			<div class="col-sm-3 hidden-xs"></div>
-			<div class="col-sm-2 col-xs-4">
-                <img class="img-fluid center-block"
-                     :src="require('../images/logo_4blumen.gif')"
-                     alt="4 Blumen">
-			</div>
-			<div class="col-sm-2 col-xs-4">
-                <img class="img-fluid center-block"
-                     :src="require('../images/logo_uab.gif')"
-                     alt="Urlaub am Bauernhof">
-			</div>
-			<div class="col-sm-2 col-xs-4">
-                <img class="img-fluid center-block"
-                     :src="require('../images/logo_traube.gif')"
-                     alt="Winzerhof Wurst">
-			</div>
-			<div class="col-sm-3 hidden-xs"></div>
-		</div>
-	</a>
-</div>
+    <a id="home-rooms" href="/gaestezimmer">
+      <div class="row clearfix">
+        <div class="col-sm-3 hidden-xs"></div>
+        <div class="col-sm-2 col-xs-4">
+          <img
+            class="img-fluid center-block"
+            :src="require('../images/logo_4blumen.gif')"
+            alt="4 Blumen"
+          >
+        </div>
+        <div class="col-sm-2 col-xs-4">
+          <img
+            class="img-fluid center-block"
+            :src="require('../images/logo_uab.gif')"
+            alt="Urlaub am Bauernhof"
+          >
+        </div>
+        <div class="col-sm-2 col-xs-4">
+          <img
+            class="img-fluid center-block"
+            :src="require('../images/logo_traube.gif')"
+            alt="Winzerhof Wurst"
+          >
+        </div>
+        <div class="col-sm-3 hidden-xs"></div>
+      </div>
+    </a>
+  </div>
 </template>
 
 <script>
