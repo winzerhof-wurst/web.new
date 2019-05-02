@@ -12,13 +12,6 @@
         alt="Winzerhof Wurst"
       >
     </p>
-    <p>
-      <img
-        class="img-fluid center-block rounded"
-        :src="require('../../images/rooms/weinherbst_02.jpg')"
-        alt="Winzerhof Wurst"
-      >
-    </p>
     </ContentTile>
   </Content>
 </template>
