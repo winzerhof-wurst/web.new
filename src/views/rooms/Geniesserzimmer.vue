@@ -15,13 +15,6 @@
       <p>
         <img
           class="img-fluid center-block rounded"
-          :src="require('../../images/rooms/geniesserzimmer_02.jpg')"
-          alt="Winzerhof Wurst"
-        >
-      </p>
-      <p>
-        <img
-          class="img-fluid center-block rounded"
           :src="require('../../images/rooms/geniesserzimmer_01.jpg')"
           alt="Winzerhof Wurst"
         >
