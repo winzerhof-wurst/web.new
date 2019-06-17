@@ -3,15 +3,6 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-            <h2>Wein findet Stadt</h2>
-            <p>
-              Am 14. Juni findet in Waidhofen an der Ybbs die Veranstaltung "Wein findet Stadt" statt. Von 17 bis 23 Uhr haben Sie die Möglichkeit auch unsere Weine zu verkosten.
-              <br>
-              Wir freuens uns auf Sie!
-            </p>
-        </ContentTile>
-
-        <ContentTile>
             <h2>Retzer Weinwoche</h2>
             <p>
               Mit großer Freude dürfen wir uns heuer über gleich zwei Sortensieger bei der Retzer Weinwoche freuen. Unser H&P Weissweincuveé sowie unser Rosé-Merlot haben die Jury überzeugt und werden bei der Eröffnung am 20. Juni in Retz ausgezeichnet.
