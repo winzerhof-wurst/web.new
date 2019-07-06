@@ -35,7 +35,7 @@
             <p>
                 Wenn Sie Aktivit&auml;ten suchen, bietet das gut ausgebaute, beschilderte Radnetz des Retzer Landes Gelegenheit dazu.
                 <a target="_blank" href="http://www.openstreetmap.org/?mlat=48.7169&mlon=15.9075#map=12/48.7169/15.9075&layers=C">
-                    Open Street Map</a> enth&auml;t einige sch&ouml;ne Strecken zum Radfahren rund um Schrattenthal.
+                    Open Street Map</a> enth&auml;lt einige sch&ouml;ne Strecken zum Radfahren rund um Schrattenthal.
             </p>
             <p>
                 <i>"Erleben"</i> Sie das Werden des Weines von der Rebe bis ins Glas. Das vermitteln wir Ihnen bei Riedenwanderung und Kellerf&uuml;hrung.
