@@ -3,14 +3,10 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-            <h2>Retzer Weinwoche</h2>
-            <p>
-              Mit großer Freude dürfen wir uns heuer über gleich zwei Sortensieger bei der Retzer Weinwoche freuen. Unser H&P Weissweincuveé sowie unser Rosé-Merlot haben die Jury überzeugt und werden bei der Eröffnung am 20. Juni in Retz ausgezeichnet.
-Sie können die <router-link :to="{name: 'wines'}">Weine</router-link> schon jetzt direkt bei uns erwerben.
-            </p>
+            <h2>Offene Kellertür 2019</h2>
             <img class="img-fluid"
-                     :src="require('../../images/201905_sortensieger.jpg')"
-                     alt="Sortensieger Winzerhof Wurst der Retzer Weinwoche 2019">
+                     :src="require('../../images/201908_okt.jpg')"
+                     alt="Offene Kellertür am Winzerhof Wurst. Vom 8. bis 11. August 2019 verwöhnen wir euch in unserem Presshaus mit Wein und hausgemachten Schmankerln.">
         </ContentTile>
 
         <ContentTile>
