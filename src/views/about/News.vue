@@ -3,13 +3,6 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-            <h2>Offene Kellertür 2019</h2>
-            <img class="img-fluid"
-                     :src="require('../../images/201908_okt.jpg')"
-                     alt="Offene Kellertür am Winzerhof Wurst. Vom 8. bis 11. August 2019 verwöhnen wir euch in unserem Presshaus mit Wein und hausgemachten Schmankerln.">
-        </ContentTile>
-
-        <ContentTile>
             <h2>Urlaub am Winzerhof</h2>
             <div class="embed-responsive embed-responsive-16by9">
               <iframe width="640" height="360" src="https://www.youtube.com/embed/O2i49NVaYNs" frameborder="0" allowfullscreen></iframe>
