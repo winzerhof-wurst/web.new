@@ -12,29 +12,36 @@
 
     <a id="home-rooms" href="/gaestezimmer">
       <div class="row clearfix">
-        <div class="col-sm-3 hidden-xs"></div>
-        <div class="col-sm-2 col-xs-4">
+        <div class="col-sm-2 hidden-xs"></div>
+        <div class="col-sm-2 col-xs-6 text-center">
           <img
-            class="img-fluid center-block"
-            :src="require('../images/logo_4blumen.gif')"
+            class="img-fluid"
+            :src="require('../images/logo_4blumen.png')"
             alt="4 Blumen"
           >
         </div>
-        <div class="col-sm-2 col-xs-4">
+        <div class="col-sm-2 col-xs-6 text-center">
           <img
-            class="img-fluid center-block"
-            :src="require('../images/logo_uab.gif')"
+            class="img-fluid"
+            :src="require('../images/logo_uab.png')"
             alt="Urlaub am Bauernhof"
           >
         </div>
-        <div class="col-sm-2 col-xs-4">
+        <div class="col-sm-2 col-xs-6 text-center">
           <img
-            class="img-fluid center-block"
+            class="img-fluid"
+            :src="require('../images/logo_qp.png')"
+            alt="Winzerhof Wurst"
+          >
+        </div>
+        <div class="col-sm-2 col-xs-6 text-center">
+          <img
+            class="img-fluid"
             :src="require('../images/logo_traube.gif')"
             alt="Winzerhof Wurst"
           >
         </div>
-        <div class="col-sm-3 hidden-xs"></div>
+        <div class="col-sm-2 hidden-xs"></div>
       </div>
     </a>
   </div>
@@ -114,6 +121,10 @@ h1.cover-heading {
   #home-rooms {
     width: 80%;
   }
+}
+
+#home-rooms img {
+  max-height: 35px;
 }
 </style>
 
