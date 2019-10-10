@@ -5,11 +5,11 @@
         <ContentTile>
             <h2>Weinlese 2019</h2>
             <p>
-              Die fünfte Jahreszeit hat begonnen und der Großteil der Trauben wurden bereits geerntet und verarbeitet. Das gesunde Traubenmaterial bietet eine optimale Grundlage für den neuen Jahrgang.
+              Bereits Anfang Oktober können wir die diesjährige Ernte erfolgreich abschließen. Traditionell feiern wir dieses Ereignis mit einem mit Rebzweigen geschmückten Traktor, der die letzte Fuhr Weintrauben zum Presshaus bringt.
             </p>
              <img class="img-fluid"
-                     :src="require('../../images/201909_weinlese.jpg')"
-                     alt="Pollak Retzbacherhof">
+                     :src="require('../../images/201910_weinlese.jpg')"
+                     alt="Weinlese 2019 am Winzerhof Wurst">
         </ContentTile>
 
         <ContentTile>
