@@ -19,15 +19,15 @@
             <tbody>
               <tr>
                 <td>Sonntag bis Donnerstag</td>
-                <td>€29,50</td>
+                <td>€30,50</td>
               </tr>
               <tr>
                 <td>Donnerstag bis Sonntag und Feiertag</td>
-                <td>€32,50</td>
+                <td>€33,50</td>
               </tr>
               <tr>
                 <td>Einbettzimmer</td>
-                <td>€36,-</td>
+                <td>€38,-</td>
               </tr>
               <tr>
                 <td>Aufpreis f&uuml;r eine Nacht</td>
