@@ -3,13 +3,23 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-            <h2>Weinlese 2019</h2>
             <p>
-              Bereits Anfang Oktober können wir die diesjährige Ernte erfolgreich abschließen. Traditionell feiern wir dieses Ereignis mit einem mit Rebzweigen geschmückten Traktor, der die letzte Fuhr Weintrauben zum Presshaus bringt.
+              Die Tage sind kurz, das Licht oft nur fahl<br>
+              Es weihnachtet schon in Schrattenthal.<br>
+              Ein freudiges Warten liegt in der Luft<br>
+              Aus der Backstube dringt süßer Duft<br>
+              Und macht unsere Herzen innig und weit<br>
+              In dieser besinnlichen Zeit.
             </p>
-             <img class="img-fluid"
-                     :src="require('../../images/201910_weinlese.jpg')"
-                     alt="Weinlese 2019 am Winzerhof Wurst">
+            <p>
+              So wünschen wir euch, liebe Kunden und Gäste<br>
+              Zum bevorstehenden Weihnachtsfest<br>
+              Gesundheit, Freude,Zufriedenheit<br>
+              Heute, morgen und allezeit.
+            </p>
+            <img class="img-fluid"
+                     :src="require('../../images/201912_weingarten.jpg')"
+                     alt="Weingarten im Winter">
         </ContentTile>
 
         <ContentTile>
