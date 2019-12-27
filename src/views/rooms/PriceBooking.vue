@@ -27,7 +27,7 @@
               </tr>
               <tr>
                 <td>Einbettzimmer</td>
-                <td>€38,-</td>
+                <td>€38,50</td>
               </tr>
               <tr>
                 <td>Aufpreis f&uuml;r eine Nacht</td>
