@@ -38,7 +38,7 @@
           <h2>Retzer Weinwoche</h2>
           <p>
             <em>Eine Stadt, 10 Tage, 700 Weine.</em><br>
-            Nutzen/Nützen Sie diese einmalige Gelegenheit im Retzer Land und verkosten Sie die besten Weine der Region.
+            Nutzen Sie diese einmalige Gelegenheit im Retzer Land und verkosten Sie die besten Weine der Region.
           </p>
           <p>
             <i>11.-21. Juni 2020, Sparkassengarten, Retz</i>
