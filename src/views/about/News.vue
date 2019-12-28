@@ -14,7 +14,7 @@
             <p>
               So wünschen wir euch, liebe Kunden und Gäste<br>
               Zum bevorstehenden Weihnachtsfest<br>
-              Gesundheit, Freude,Zufriedenheit<br>
+              Gesundheit, Freude, Zufriedenheit<br>
               Heute, morgen und allezeit.
             </p>
             <img class="img-fluid"
