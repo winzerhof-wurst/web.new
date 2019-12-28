@@ -26,7 +26,7 @@
             </div>
         </div>
         <p>
-            Der Lokalsender LT1 hat kürzlich einen Beitrag über den Wochenmarkt gesendet.<br>
+            Der Lokalsender LT1 hat einen Beitrag über den Wochenmarkt gesendet.<br>
             <iframe src='https://www.lt1.at/programm/einbetten/23-03-2018/episode/frisches-vom-standl' width='800' height='480' frameborder='0' allowfullscreen></iframe>
         </p>
     </ContentTile>
@@ -41,26 +41,29 @@ export default {
   },
   data() {
     var marketDates = [
-      new Date(2019, 0, 19),
-      new Date(2019, 1, 16),
-      new Date(2019, 2, 16),
-      new Date(2019, 3, 20),
-      new Date(2019, 4, 18),
-      new Date(2019, 5, 15),
-      new Date(2019, 6, 20),
-      new Date(2019, 7, 17),
-      new Date(2019, 8, 21),
-      new Date(2019, 9, 19),
-      new Date(2019, 10, 16),
-      new Date(2019, 11, 21)
+      new Date(2020, 0, 18),
+      new Date(2020, 1, 15),
+      new Date(2020, 2, 21),
+      new Date(2020, 3, 11),
+      new Date(2020, 4, 16),
+      new Date(2020, 5, 20),
+      new Date(2020, 6, 18),
+      new Date(2020, 7, 8),
+      new Date(2020, 8, 19),
+      new Date(2020, 9, 17),
+      new Date(2020, 10, 21),
+      new Date(2020, 11, 19)
     ];
     var today = new Date();
 
     return {
       marketDates: marketDates.filter(function(date) {
         return (
-          date.getFullYear() >= today.getFullYear() &&
-          date.getMonth() >= today.getMonth()
+          date.getFullYear() > today.getFullYear() ||
+          (
+            date.getFullYear() >= today.getFullYear() &&
+            date.getMonth() >= today.getMonth()
+          )
         );
       })
     };
