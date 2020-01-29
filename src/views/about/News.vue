@@ -4,21 +4,10 @@
 
         <ContentTile>
             <p>
-              Die Tage sind kurz, das Licht oft nur fahl<br>
-              Es weihnachtet schon in Schrattenthal.<br>
-              Ein freudiges Warten liegt in der Luft<br>
-              Aus der Backstube dringt süßer Duft<br>
-              Und macht unsere Herzen innig und weit<br>
-              In dieser besinnlichen Zeit.
-            </p>
-            <p>
-              So wünschen wir euch, liebe Kunden und Gäste<br>
-              Zum bevorstehenden Weihnachtsfest<br>
-              Gesundheit, Freude, Zufriedenheit<br>
-              Heute, morgen und allezeit.
+              Wir kümmern uns derzeit um den Rebschnitt im Weingarten und legen damit die Grundlage für das Weinjahr 2020.
             </p>
             <img class="img-fluid"
-                     :src="require('../../images/201912_weingarten.jpg')"
+                     :src="require('../../images/202001_weingarten.jpg')"
                      alt="Weingarten im Winter">
         </ContentTile>
 
