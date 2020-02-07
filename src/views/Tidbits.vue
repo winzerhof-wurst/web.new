@@ -9,7 +9,7 @@
         <ContentTile>
             <h2>Bestellung</h2>
             <p>
-                Die Preise sind in Euro und verstehen sich ab-Hof und inklusive Steuern.
+                Die Preise sind in Euro und verstehen sich als Online-Preise.
                 <br>
                 <br> Die Versandkosten sind gewichts- und entfernungsabhängig und werden Ihnen vor der Auslieferung bekanntgegeben.
             </p>

@@ -32,12 +32,10 @@
         <ContentTile>
             <h2>Bestellung</h2>
             <p>
-                Die Preise sind in Euro und verstehen sich ab-Hof und inklusive Steuern.
-                <br> Bei 1l + 2l Flaschen exclusive Euro 0,40 Einsatz.
+                Die Preise sind in Euro und verstehen sich als Online-Preise.
+                <br> Ab einem Bestellwert von 65,-- Euro versenden wir die Weine versandkostenfrei in ganz Österreich. 1-Liter-Flaschen können nur im 12er-Paket versendet werden. Pro 1-Liter-Flasche verrechnen wir 0,40 Euro Einsatz.
                 <br>
                 <br> Aus verpackungstechnischen Gründen bitten wir Sie in 6er Einheiten zu bestellen, d.h. insgesamt 6, 12, 18, 24, usw. Flaschen.
-                <br>
-                <br> Die Versandkosten sind gewichts- und entfernungsabhängig und werden Ihnen vor der Auslieferung bekanntgegeben.
             </p>
             <ShopForm />
         </ContentTile>
