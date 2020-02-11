@@ -17,7 +17,7 @@
             </p>
             <img class="img-fluid"
                      :src="require('../../images/202002_dac.jpg')"
-                     alt="Weingarten im Winter">
+                     alt="Weinviertel DAC Präsentation">
         </ContentTile>
 
         <ContentTile>
