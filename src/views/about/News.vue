@@ -3,11 +3,20 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
+            <h2>Weinviertel DAC Präsentation</h2>
             <p>
-              Wir kümmern uns derzeit um den Rebschnitt im Weingarten und legen damit die Grundlage für das Weinjahr 2020.
+              Der Weinviertel DAC geht auf Tour und wir mit ihm mit. Dieses Jahr haben Sie gleich drei mal die Chance unsere neuen pfeffrigen Veltliner zu probieren. Sie treffen uns
+              <ul>
+                <li>am 5. März im Design Center Linz,<li>
+                <li>am 24. März im amadeus terminal 2 in Salzburg, und</li>
+                <li>am 26. März im MVG Museum in München.</li>
+              </ul>
+            </p>
+            <p>
+                Natürlich nehmen wir Ihnen auch gerne Wein mit, wenn Sie ihn ein paar Tage vorab bei uns bestellen. Wir freuen uns Sie bei der Verkostung zu sehen.
             </p>
             <img class="img-fluid"
-                     :src="require('../../images/202001_weingarten.jpg')"
+                     :src="require('../../images/202002_dac.jpg')"
                      alt="Weingarten im Winter">
         </ContentTile>
 
