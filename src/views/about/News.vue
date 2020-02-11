@@ -7,7 +7,7 @@
             <p>
               Der Weinviertel DAC geht auf Tour und wir mit ihm mit. Dieses Jahr haben Sie gleich drei mal die Chance unsere neuen pfeffrigen Veltliner zu probieren. Sie treffen uns
               <ul>
-                <li>am 5. März im Design Center Linz,<li>
+                <li>am 5. März im Design Center Linz,</li>
                 <li>am 24. März im amadeus terminal 2 in Salzburg, und</li>
                 <li>am 26. März im MVG Museum in München.</li>
               </ul>
