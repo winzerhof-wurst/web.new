@@ -54,15 +54,15 @@ export default {
   computed: {
     quantity: {
       get() {
-        return this.$store.getters.cartWineQuantity(this.data.id);
+        return this.$store.getters.cartQuantity(this.data.id);
       },
       set(raw) {
         let quantity = parseInt(raw.replace(/\D/g, ""), 10);
         if (isNaN(quantity)) {
           quantity = 0;
         }
-        this.$store.commit("updateWineQuantity", {
-          wineId: this.data.id,
+        this.$store.commit("updateProductQuantity", {
+          id: this.data.id,
           quantity
         });
       }
@@ -70,13 +70,15 @@ export default {
   },
   methods: {
     add6() {
-      this.$store.commit("addSixBottlesToCart", {
-        wineId: this.data.id
+      this.$store.commit("incrementProductQuantity", {
+        id: this.data.id,
+        by: 6,
       });
     },
     add12() {
-      this.$store.commit("addTwelveBottlesToCart", {
-        wineId: this.data.id
+      this.$store.commit("incrementProductQuantity", {
+        id: this.data.id,
+        by: 12,
       });
     }
   }

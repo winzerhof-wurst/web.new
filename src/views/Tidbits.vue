@@ -32,7 +32,7 @@ export default {
     Tidbit
   },
   asyncData({ store, route }) {
-    return store.dispatch("fetchTidbits");
+    return store.dispatch("fetchProducts");
   },
   computed: {
     tidbits() {

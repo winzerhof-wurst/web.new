@@ -8,42 +8,25 @@ Vue.use(Vuex)
 export function createStore(coreUrl) {
     return new Vuex.Store({
         state: {
-            wines: [],
-            tidbits: [],
+            products: [],
             cart: {
-                wines: {},
-                tidbits: {},
+                products: {},
             }
         },
         actions: {
-            fetchWines({ commit }) {
-                const url = (coreUrl ? coreUrl : '') + '/api/wines'
+            fetchProducts({ commit }) {
+                const url = (coreUrl ? coreUrl : '') + '/api/products'
                 return Axios.get(url)
                     .then(resp => resp.data)
-                    .then(wines => commit('setWines', { wines }))
-            },
-            fetchTidbits({ commit }) {
-                const url = (coreUrl ? coreUrl : '') + '/api/tidbits'
-                return Axios.get(url)
-                    .then(resp => resp.data)
-                    .then(tidbits => commit('setTidbits', { tidbits }))
+                    .then(products => commit('setProducts', { products }))
             },
             submitOrder({ state, commit }, data) {
-                data.wines = []
-                state.wines.forEach(wine => {
-                    if (state.cart.wines[wine.id]) {
-                        data.wines.push({
-                            id: wine.id,
-                            quantity: state.cart.wines[wine.id],
-                        })
-                    }
-                })
-                data.tidbits = []
-                state.tidbits.forEach(tidbit => {
-                    if (state.cart.tidbits[tidbit.id]) {
-                        data.tidbits.push({
-                            id: tidbit.id,
-                            quantity: state.cart.tidbits[tidbit.id],
+                data.products = []
+                state.products.forEach(p => {
+                    if (state.cart.products[p.id]) {
+                        data.products.push({
+                            id: p.id,
+                            quantity: state.cart.products[p.id],
                         })
                     }
                 })
@@ -52,52 +35,36 @@ export function createStore(coreUrl) {
                 return Axios.post(url, data)
                     .then(() => commit('resetCart'))
             },
-            sendBookingRequest({}, data) {
+            sendBookingRequest({ }, data) {
                 const url = (coreUrl ? coreUrl : '') + '/api/rooms/book'
                 return Axios.post(url, data)
                     .then(resp => resp.data)
             }
         },
         mutations: {
-            setWines(state, { wines }) {
-                state.wines = _.sortBy(wines, ['order', 'name', 'year'])
-                wines.forEach(wine => {
-                    Vue.set(state.cart.wines, wine.id, 0)
+            setProducts(state, { products }) {
+                state.products = _.sortBy(products, ['order', 'name', 'year'])
+                products.forEach(p => {
+                    Vue.set(state.cart.products, p.id, 0)
                 })
             },
-            updateWineQuantity(state, { wineId, quantity }) {
-                state.cart.wines[wineId] = quantity
+            addProductToCart(state, { id }) {
+                state.cart.products[id]++;
             },
-            addSixBottlesToCart(state, { wineId }) {
-                state.cart.wines[wineId] += 6
+            updateProductQuantity(state, { id, quantity }) {
+                state.cart.products[id] = quantity
             },
-            addTwelveBottlesToCart(state, { wineId }) {
-                state.cart.wines[wineId] += 12
-            },
-            setTidbits(state, { tidbits }) {
-                state.tidbits = tidbits
-                tidbits.forEach(tidbit => {
-                    Vue.set(state.cart.tidbits, tidbit.id, 0)
-                })
-            },
-            addTidbitToCart(state, { tidbitId }) {
-                state.cart.tidbits[tidbitId]++;
-            },
-            updateTidbitQuantity(state, { tidbitId, quantity }) {
-                state.cart.tidbits[tidbitId] = quantity
+            incrementProductQuantity(state, { id, by }) {
+                state.cart.products[id] += by
             },
             resetCart(state) {
-                state.wines.forEach(wine => state.cart.wines[wine.id] = 0)
-                state.tidbits.forEach(tidbit => state.cart.tidbits[tidbit.id] = 0)
-            }
+                state.products.forEach(p => state.cart.products[p.id] = 0)
+            },
         },
         getters: {
-            cartWineQuantity: state => (wineId) => {
-                return state.cart.wines[wineId]
+            cartQuantity: state => (id) => {
+                return state.cart.products[id]
             },
-            cartTidbitQuantity: state => (tidbitId) => {
-                return state.cart.tidbits[tidbitId]
-            }
         }
     })
 }

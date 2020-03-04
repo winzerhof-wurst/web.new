@@ -56,20 +56,20 @@ export default {
     Wine
   },
   asyncData({ store, route }) {
-    return store.dispatch("fetchWines");
+    return store.dispatch("fetchProducts");
   },
   computed: {
     whiteWines: function() {
-      return this.$store.state.wines.filter(w => w.type === "W");
+      return this.$store.state.products.filter(w => w.type === "W");
     },
     redWines: function() {
-      return this.$store.state.wines.filter(w => w.type === "R");
+      return this.$store.state.products.filter(w => w.type === "R");
     },
     specialWines: function() {
-      return this.$store.state.wines.filter(w => w.type === "Q");
+      return this.$store.state.products.filter(w => w.type === "Q");
     },
     oneLiter: function() {
-      return this.$store.state.wines.filter(w => w.type === "1L");
+      return this.$store.state.products.filter(w => w.type === "1L");
     }
   }
 };

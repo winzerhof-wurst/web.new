@@ -42,15 +42,15 @@ export default {
   computed: {
     quantity: {
       get() {
-        return this.$store.getters.cartTidbitQuantity(this.data.id);
+        return this.$store.getters.cartQuantity(this.data.id);
       },
       set(raw) {
         let quantity = parseInt(raw.replace(/\D/g, ""), 10);
         if (isNaN(quantity)) {
           quantity = 0;
         }
-        this.$store.commit("updateTidbitQuantity", {
-          tidbitId: this.data.id,
+        this.$store.commit("updateProductQuantity", {
+          id: this.data.id,
           quantity
         });
       }
@@ -58,8 +58,8 @@ export default {
   },
   methods: {
     addToCart() {
-      this.$store.commit("addTidbitToCart", {
-        tidbitId: this.data.id
+      this.$store.commit("addProductToCart", {
+        id: this.data.id
       });
     }
   }
