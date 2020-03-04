@@ -21,6 +21,16 @@
         </ContentTile>
 
         <ContentTile>
+            <h2>Wein findet Stadt</h2>
+            <p>
+              Waidhofen verwandelt seine Fußgängerzone zu einer Weinstraße für alle Weinliebhaber. Wir sind mit dabei und schenken eine Auswahl unsere Weine für Sie aus.
+            </p>
+            <p>
+              19. Juni 2020, Hoher Markt, Waidhofen an der Ybbs
+            </p>
+        </ContentTile>
+
+        <ContentTile>
             <h2>Urlaub am Winzerhof</h2>
             <div class="embed-responsive embed-responsive-16by9">
               <iframe width="640" height="360" src="https://www.youtube.com/embed/O2i49NVaYNs" frameborder="0" allowfullscreen></iframe>
