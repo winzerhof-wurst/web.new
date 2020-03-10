@@ -91,7 +91,7 @@ export default {
                 lastname: this.lastname,
                 street: this.street,
                 nr: this.nr,
-                zipcode: this.zipcode,
+                zipcode: parseInt(this.zipcode, 10),
                 city: this.city,
                 email: this.email,
                 telephone: this.telephone,

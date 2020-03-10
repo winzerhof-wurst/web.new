@@ -33,6 +33,7 @@ server.post('/api/orders', (req, res) => {
         .then(resp => resp.data)
         .then(() => res.json({}))
         .catch(e => {
+            console.error('could not forward order: ' + e.message)
             res.status(500)
             res.send(e.toString())
         })

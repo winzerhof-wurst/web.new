@@ -8,6 +8,11 @@
         </ContentTile>
 
         <ContentTile>
+            <h2>Pakete</h2>
+            <Wine v-for="wine in packages" :key="wine.id" :data="wine"/>
+        </ContentTile>
+
+        <ContentTile>
             <h2>Weißweine</h2>
             <Wine v-for="wine in whiteWines" :key="wine.id" :data="wine"/>
         </ContentTile>
@@ -59,6 +64,9 @@ export default {
     return store.dispatch("fetchProducts");
   },
   computed: {
+    packages: function() {
+      return this.$store.state.products.filter(w => w.type === "WP");
+    },
     whiteWines: function() {
       return this.$store.state.products.filter(w => w.type === "W");
     },
