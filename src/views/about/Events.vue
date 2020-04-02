@@ -3,19 +3,13 @@
         <h1>Termine</h1>
 
         <ContentTile>
-          <h2>Weinviertel DAC Präsentation</h2>
           <p>
-            Der Weinviertel DAC geht auf Tour und wir mit ihm mit. Besuchen Sie uns in Linz, Salzburg und München um mit uns die neuen pfeffrigen Veltliner zu verkosten.
-          </p>
-          <p>
-            <i>5. März 2020, Design Center, Linz</i><br>
-            <i>24. März 2020, amadeus terminal 2, Salzburg</i><br>
-            <i>26. März 2020, MVG Museum, München</i>
+            Auf Grund der derzeitigen Lage sind vorerst einige Veranstaltungen abgesagt oder verschoben. Wir bitten um Verständnis und freuen uns wenn wir uns wieder gesund bei einem Achterl treffen können bei dem ein oder anderen (verschobenen) Event.
           </p>
         </ContentTile>
 
         <ContentTile>
-          <h2>Weintour Weinviertel</h2>
+          <h2><s>Weintour Weinviertel</s> ABGESAGT</h2>
           <p>
             Am 18. und 19. April öffnen wir unser großes Tor und laden Sie ein unsere neuen Weine im gemütlichen Innenhof zu probieren.
           </p>
@@ -25,13 +19,23 @@
         </ContentTile>
 
         <ContentTile>
-          <h2>Weinfrühling bei der Blauen Elf</h2>
+          <h2><s>Weinfrühling bei der Blauen Elf</s> ABGESAGT</h2>
           <p>
             Alle Jahre wieder veranstaltet die Blaue Elf ihren Weinfrühling und so dürfen auch wir wieder mit dabei sein.
           </p>
           <p>
             <i>18. April 2020, Teutschmannweg 1, Linz</i>
           </p>
+        </ContentTile>
+
+        <ContentTile>
+            <h2>Wein findet Stadt</h2>
+            <p>
+              Waidhofen verwandelt seine Fußgängerzone zu einer Weinstraße für alle Weinliebhaber. Wir sind mit dabei und schenken eine Auswahl unsere Weine für Sie aus.
+            </p>
+            <p>
+              19. Juni 2020, Hoher Markt, Waidhofen an der Ybbs
+            </p>
         </ContentTile>
 
         <ContentTile>

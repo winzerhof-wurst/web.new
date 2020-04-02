@@ -3,31 +3,18 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-            <h2>Weinviertel DAC Präsentation</h2>
-            <p>
-              Der Weinviertel DAC geht auf Tour und wir mit ihm mit. Dieses Jahr haben Sie gleich drei mal die Chance unsere neuen pfeffrigen Veltliner zu probieren. Sie treffen uns
-              <ul>
-                <li>am 5. März im Design Center Linz,</li>
-                <li><s>am 24. März im amadeus terminal 2 in Salzburg, und</s> ABGESAGT</li>
-                <li><s>am 26. März im MVG Museum in München.</s> ABGESAGT</li>
-              </ul>
-            </p>
-            <p>
-                Natürlich nehmen wir Ihnen auch gerne Wein mit, wenn Sie ihn ein paar Tage vorab bei uns bestellen. Wir freuen uns Sie bei der Verkostung zu sehen.
-            </p>
-            <img class="img-fluid"
-                     :src="require('../../images/202002_dac.jpg')"
-                     alt="Weinviertel DAC Präsentation">
-        </ContentTile>
-
-        <ContentTile>
-            <h2>Wein findet Stadt</h2>
-            <p>
-              Waidhofen verwandelt seine Fußgängerzone zu einer Weinstraße für alle Weinliebhaber. Wir sind mit dabei und schenken eine Auswahl unsere Weine für Sie aus.
-            </p>
-            <p>
-              19. Juni 2020, Hoher Markt, Waidhofen an der Ybbs
-            </p>
+          <h2>Wein schenkt Freude</h2>
+          <p>
+            Liebe Weinfreude,<br>
+            die jetzige Zeit ist für alle eine Herausforderung, aber gemeinsam schaffen wir das. Um euch etwas Freude zu Hause zu bereiten, möchten wir unsere Weine, vorallem den neuen Jahrgang, trotzdem zu euch bringen. Wir versenden die Weine gerne per DPD oder liefern Sie persönlich. Bei der persönlichen Zustellung achten wir darauf, dass wir uns nicht treffen, sondern der Wein wird kontaklos vor eurer Haustür mit Rechnung abgestellt.
+          </p>
+          <p>
+            Wir freuen uns über eure Bestellung per Anruf oder Mail.<br>
+            G'sund bleiben und z'Haus bleiben!
+          </p>
+          <img class="img-fluid"
+                     :src="require('../../images/202004_wein_schenkt_freude.jpg')"
+                     alt="Wein schenkt Freude">
         </ContentTile>
 
         <ContentTile>
