@@ -16,7 +16,10 @@
                     <h3>Termine</h3>
                     <ul>
                         <li v-for="d in marketDates"
-                            :key="d.getTime()">{{formatDate(d)}}</li>
+                            :key="d.date.getTime()">
+                              <s v-if="d.canceled">{{formatDate(d.date)}}</s>
+                              <template v-else>{{formatDate(d.date)}}</template>
+                            </li>
                     </ul>
                 </p>
                 <p>
@@ -41,28 +44,28 @@ export default {
   },
   data() {
     var marketDates = [
-      new Date(2020, 0, 18),
-      new Date(2020, 1, 15),
-      new Date(2020, 2, 21),
-      new Date(2020, 3, 11),
-      new Date(2020, 4, 16),
-      new Date(2020, 5, 20),
-      new Date(2020, 6, 18),
-      new Date(2020, 7, 8),
-      new Date(2020, 8, 19),
-      new Date(2020, 9, 17),
-      new Date(2020, 10, 21),
-      new Date(2020, 11, 19)
+      { date: new Date(2020, 0, 18) },
+      { date: new Date(2020, 1, 15) },
+      { date: new Date(2020, 2, 21) },
+      { date: new Date(2020, 3, 11) },
+      { date: new Date(2020, 4, 16), canceled: true },
+      { date: new Date(2020, 5, 20) },
+      { date: new Date(2020, 6, 18) },
+      { date: new Date(2020, 7, 8) },
+      { date: new Date(2020, 8, 19) },
+      { date: new Date(2020, 9, 17) },
+      { date: new Date(2020, 10, 21) },
+      { date: new Date(2020, 11, 19) },
     ];
     var today = new Date();
 
     return {
-      marketDates: marketDates.filter(function(date) {
+      marketDates: marketDates.filter(function(entry) {
         return (
-          date.getFullYear() > today.getFullYear() ||
+          entry.date.getFullYear() > today.getFullYear() ||
           (
-            date.getFullYear() >= today.getFullYear() &&
-            date.getMonth() >= today.getMonth()
+            entry.date.getFullYear() >= today.getFullYear() &&
+            entry.date.getMonth() >= today.getMonth()
           )
         );
       })
