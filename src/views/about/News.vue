@@ -3,6 +3,21 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
+          <h2>Leondinger Wochenmarkt 11.4.2020</h2>
+          <p>
+            Liebe Kunden,
+          <p>
+            um uns weiterhin gegenseitig zu schützen, werden wir diesen Samstag nicht am Wochenmarkt vertreten sein. Jedoch möchten wir trotzdem den Wein zu euch bringen.
+          </p>
+          <p>
+            Bestellt eure gewünschten Produkte hier über unsere Website oder direkt bei Petra unter <a href="tel:004369912757723">069912757723</a>. Wir werden den Wein im Umkreis Linz und Leonding zustellen und die Rechnung der Ware beilegen.
+          </p>
+          <p>
+            Wir danken für euer Verständnis und wünschen euch <b>Frohe Ostern!</b>
+          </p>
+        </ContentTile>
+
+        <ContentTile>
           <h2>Wein schenkt Freude</h2>
           <p>
             Liebe Weinfreude,<br>
