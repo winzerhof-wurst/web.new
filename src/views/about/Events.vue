@@ -29,7 +29,7 @@
         </ContentTile>
 
         <ContentTile>
-            <h2>Wein findet Stadt</h2>
+            <h2><s>Wein findet Stadt</s> ABGESAGT</h2>
             <p>
               Waidhofen verwandelt seine Fußgängerzone zu einer Weinstraße für alle Weinliebhaber. Wir sind mit dabei und schenken eine Auswahl unsere Weine für Sie aus.
             </p>
