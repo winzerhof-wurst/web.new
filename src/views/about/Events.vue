@@ -39,7 +39,7 @@
         </ContentTile>
 
         <ContentTile>
-          <h2>Retzer Weinwoche</h2>
+          <h2><s>Retzer Weinwoche</s> ABGESAGT</h2>
           <p>
             <em>Eine Stadt, 10 Tage, 700 Weine.</em><br>
             Nutzen Sie diese einmalige Gelegenheit im Retzer Land und verkosten Sie die besten Weine der Region.
