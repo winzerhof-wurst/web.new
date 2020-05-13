@@ -3,6 +3,19 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
+          <h2>Leondinger Wochenmarkt 16. 5. 2020</h2>
+          <p>
+            Liebe Kunden,<br>
+            diese Wochenende sehen wir uns wieder am Wochenmarkt in Leonding. Neben unseren Weinen werden auch wieder Petras Mehlspeisen erhältlich sein.<br>
+            Wir freuen uns auf eure Bestellungen<br>
+            Bis Samstag!
+          </p>
+          <img class="img-fluid"
+                     :src="require('../../images/202005_leonding.jpg')"
+                     alt="Leondinger Wochenmarkt 16. 5. 2020">
+        </ContentTile>
+
+        <ContentTile>
           <h2>Zwei gute Nachrichten</h2>
           <p>
             Die Frostnächte in den letzten Wochen haben unseren Weingärten keinen Schaden zugesetzt und treiben gerade aus. Noch dazu freuen wir uns über den lang ersehnten Regen, der wieder Wasser in den Boden zurück bringt.
