@@ -10,9 +10,6 @@
             Wir freuen uns auf eure Bestellungen<br>
             Bis Samstag!
           </p>
-          <img class="img-fluid"
-                     :src="require('../../images/202005_leonding.jpg')"
-                     alt="Leondinger Wochenmarkt 16. 5. 2020">
         </ContentTile>
 
         <ContentTile>
