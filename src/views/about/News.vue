@@ -3,38 +3,11 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-          <h2>Leondinger Wochenmarkt 20. 6. 2020</h2>
-          <p>
-            Liebe Kunden,<br>
-            diese Wochenende sehen wir uns wieder am Wochenmarkt in Leonding. Neben unseren Weinen werden auch wieder Petras Mehlspeisen erhältlich sein.<br>
-            Wir freuen uns auf eure Bestellungen<br>
-            Bis Samstag!
-          </p>
-        </ContentTile>
-
-        <ContentTile>
-          <h2>Zwei gute Nachrichten</h2>
-          <p>
-            Die Frostnächte in den letzten Wochen haben unseren Weingärten keinen Schaden zugesetzt und treiben gerade aus. Noch dazu freuen wir uns über den lang ersehnten Regen, der wieder Wasser in den Boden zurück bringt.
-          </p>
+          <h2>Urlaub im Weinviertel</h2>
+          <p>Nehmen Sie sich ein paar Tage Auszeit und genießen Sie die blühende Landschaft rund um Schrattenthal.</p>
           <img class="img-fluid"
-                     :src="require('../../images/20200421_weingarten.jpg')"
+                     :src="require('../../images/202006_weingarten.jpg')"
                      alt="Weingarten Winzerhof Wurst">
-        </ContentTile>
-
-        <ContentTile>
-          <h2>Wein schenkt Freude</h2>
-          <p>
-            Liebe Weinfreude,<br>
-            die jetzige Zeit ist für alle eine Herausforderung, aber gemeinsam schaffen wir das. Um euch etwas Freude zu Hause zu bereiten, möchten wir unsere Weine, vorallem den neuen Jahrgang, trotzdem zu euch bringen. Wir versenden die Weine gerne per DPD oder liefern Sie persönlich. Bei der persönlichen Zustellung achten wir darauf, dass wir uns nicht treffen, sondern der Wein wird kontaklos vor eurer Haustür mit Rechnung abgestellt.
-          </p>
-          <p>
-            Wir freuen uns über eure Bestellung per Anruf oder Mail.<br>
-            G'sund bleiben und z'Haus bleiben!
-          </p>
-          <img class="img-fluid"
-                     :src="require('../../images/202004_wein_schenkt_freude.jpg')"
-                     alt="Wein schenkt Freude">
         </ContentTile>
 
         <ContentTile>
