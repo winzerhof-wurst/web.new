@@ -3,6 +3,15 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
+          <h2>Weinviertel DAC Champion 2020</h2>
+          <p>Jedes Jahr werden Ende Juni im Zuge der Retzer Weinwoche die Weine der Region ausgekostet und die besten prämiert. Wir dürfen uns heuer über einen Sortensieger erfreuen. Unser Weinviertel DAC Hochsteiner 2019 belegt den 1.Platz in der Kategorie Weinviertel DAC und trägt damit den Namen <em>Weinviertel DAC Champion 2020</em>.<p>
+          <p>Wir freuen uns sehr über diese Auszeichnung und hoffen, dass wir Sie am 29. August – nach der offiziellen Preisverleihung – bei uns im Hof begrüßen dürfen!</p>
+          <img class="img-fluid"
+                     :src="require('../../images/202006_dac_champion.jpg')"
+                     alt="Weinviertel DAC Champion 2020 Winzerhof Wurst">
+        </ContentTile>
+
+        <ContentTile>
           <h2>Urlaub im Weinviertel</h2>
           <p>Nehmen Sie sich ein paar Tage Auszeit und genießen Sie die blühende Landschaft rund um Schrattenthal.</p>
           <img class="img-fluid"
