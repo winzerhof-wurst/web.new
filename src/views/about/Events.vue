@@ -9,47 +9,6 @@
         </ContentTile>
 
         <ContentTile>
-          <h2><s>Weintour Weinviertel</s> ABGESAGT</h2>
-          <p>
-            Am 18. und 19. April öffnen wir unser großes Tor und laden Sie ein unsere neuen Weine im gemütlichen Innenhof zu probieren.
-          </p>
-          <p>
-            <i>18.-19. April 2020, Winzerhof Wurst, Schrattenthal</i>
-          </p>
-        </ContentTile>
-
-        <ContentTile>
-          <h2><s>Weinfrühling bei der Blauen Elf</s> ABGESAGT</h2>
-          <p>
-            Alle Jahre wieder veranstaltet die Blaue Elf ihren Weinfrühling und so dürfen auch wir wieder mit dabei sein.
-          </p>
-          <p>
-            <i>18. April 2020, Teutschmannweg 1, Linz</i>
-          </p>
-        </ContentTile>
-
-        <ContentTile>
-            <h2><s>Wein findet Stadt</s> ABGESAGT</h2>
-            <p>
-              Waidhofen verwandelt seine Fußgängerzone zu einer Weinstraße für alle Weinliebhaber. Wir sind mit dabei und schenken eine Auswahl unsere Weine für Sie aus.
-            </p>
-            <p>
-              19. Juni 2020, Hoher Markt, Waidhofen an der Ybbs
-            </p>
-        </ContentTile>
-
-        <ContentTile>
-          <h2><s>Retzer Weinwoche</s> ABGESAGT</h2>
-          <p>
-            <em>Eine Stadt, 10 Tage, 700 Weine.</em><br>
-            Nutzen Sie diese einmalige Gelegenheit im Retzer Land und verkosten Sie die besten Weine der Region.
-          </p>
-          <p>
-            <i>11.-21. Juni 2020, Sparkassengarten, Retz</i>
-          </p>
-        </ContentTile>
-
-        <ContentTile>
           <h2>Sommerkeller <small>im Zuge der offenen Kellertür</small></h2>
           <p>
             Heuer veranstalten wir bereits zum dritten Mal unseren Sommerkeller. Lassen Sie sich von uns mit unseren Weinen und hausgemachten Speisen verwöhnen, während Sie zu Livemusik von <a href="https://www.bauchgefuehl-musik.at/" target="_blank" rel="noopen noreferrer"><em>Bauchgefühl</em></a> lauschen.
@@ -66,6 +25,30 @@
           </p>
           <p>
             <i>13.-16. August 2020, Presshaus, Schrattenthal</i>
+          </p>
+        </ContentTile>
+
+        <ContentTile>
+          <h2>Retzer Landpartie bei den Winzern</h2>
+          <p>
+            <em>Die 51. Retzer Weinwoche hat ihre Siegerweine gekürt!</em><br>
+            Am 29. August 2020 öffnen von wir von 11-19 Uhr für Sie unseren Winzerhof.<br>
+          </p>
+          <p>
+            Alle teilnehmenden Betriebe finden Sie auf <a href="https://www.retzer-weinwoche.at" target="_blank" rel="noopen noreferrer">retzer-weinwoche.at</a>.
+          </p>
+          <p>
+            <i>29. August 2020, Winerhof Wurst, Schrattenthal</i>
+          </p>
+        </ContentTile>
+
+        <ContentTile>
+          <h2>Weinherbst bei der Blauen Elf</h2>
+          <p>
+            Alle Jahre wieder veranstaltet die Blaue Elf ihren Weinfrühling und so dürfen auch wir wieder mit dabei sein.
+          </p>
+          <p>
+            <i>24. Oktober 2020, Teutschmannweg 1, Linz</i>
           </p>
         </ContentTile>
 
