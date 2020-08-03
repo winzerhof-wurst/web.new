@@ -4,7 +4,7 @@
 
         <ContentTile>
           <h2>Getreideernte</h2>
-          <p>Wir nutzen die sonnigen Tage und ernten bei herrlichem Wetter unseren Weizen.<p>
+          <p>Wir nutzen die sonnigen Tage und ernten bei herrlichem Wetter unseren Weizen.</p>
           <img class="img-fluid"
                      :src="require('../../images/202007_dreschen.jpg')"
                      alt="Getreideernte 2020 Winzerhof Wurst">
