@@ -11,7 +11,7 @@
         <ContentTile>
           <h2>Sommerkeller <small>im Zuge der offenen Kellertür</small></h2>
           <p>
-            Heuer veranstalten wir bereits zum dritten Mal unseren Sommerkeller. Lassen Sie sich von uns mit unseren Weinen und hausgemachten Speisen verwöhnen, während Sie zu Livemusik von <a href="https://www.bauchgefuehl-musik.at/" target="_blank" rel="noopen noreferrer"><em>Bauchgefühl</em></a> lauschen.
+            Heuer veranstalten wir bereits zum dritten Mal unseren Sommerkeller. Lassen Sie sich von uns mit unseren Weinen und hausgemachten Speisen verwöhnen.
           </p>
           <p>
             <i>13. August 2020, Presshaus, Schrattenthal</i>
