@@ -3,10 +3,10 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-          <h2>Getreideernte</h2>
-          <p>Wir nutzen die sonnigen Tage und ernten bei herrlichem Wetter unseren Weizen.</p>
+          <h2>Offene Kellertür – Danke!</h2>
+          <p>Wir bedanken uns über diesen Weg für die zahlreichen Gäste der heurigen offenen Kellertür. Wie jedes Jahr freuen wir uns sehr über euren Besuch in unserem Presshaus 🙂</p>
           <img class="img-fluid"
-                     :src="require('../../images/202007_dreschen.jpg')"
+                     :src="require('../../images/202008_okt_danke.jpg')"
                      alt="Getreideernte 2020 Winzerhof Wurst">
         </ContentTile>
 

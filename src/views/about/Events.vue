@@ -9,26 +9,6 @@
         </ContentTile>
 
         <ContentTile>
-          <h2>Sommerkeller <small>im Zuge der offenen Kellertür</small></h2>
-          <p>
-            Heuer veranstalten wir bereits zum dritten Mal unseren Sommerkeller. Lassen Sie sich von uns mit unseren Weinen und hausgemachten Speisen verwöhnen.
-          </p>
-          <p>
-            <i>13. August 2020, Presshaus, Schrattenthal</i>
-          </p>
-        </ContentTile>
-
-        <ContentTile>
-          <h2>Tag der offenen Kellertür</h2>
-          <p>
-            Weinbau hat bei uns Tradition und so zählt auch mittlerweile unsere offene Kellertür zu einem fixen Programmpunkt. 4 Tage lang bieten wir Ihnen in unserem Presshaus erlesene Weine und hausgemachte Speisen.
-          </p>
-          <p>
-            <i>13.-16. August 2020, Presshaus, Schrattenthal</i>
-          </p>
-        </ContentTile>
-
-        <ContentTile>
           <h2>Retzer Landpartie bei den Winzern</h2>
           <p>
             <em>Die 51. Retzer Weinwoche hat ihre Siegerweine gekürt!</em><br>
