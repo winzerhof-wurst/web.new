@@ -3,6 +3,14 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
+          <h2>Kommendes Wochenende - Retzer Landpartie </h2>
+          <p>Schaut's am Samstag bei uns vorbei und verkostet's neben unserem DAC Champion, dem Weinviertel DAC Hochsteiner, unser gesamtes Sortiment im gemütlichen Innenhof. Wir freuen uns auf euch!</p>
+          <img class="img-fluid"
+                     :src="require('../../images/202008_landpartie.jpg')"
+                     alt="Retzer Landpartie am Winzerhof Wurst">
+        </ContentTile>
+
+        <ContentTile>
           <h2>Offene Kellertür – Danke!</h2>
           <p>Wir bedanken uns über diesen Weg für die zahlreichen Gäste der heurigen offenen Kellertür. Wie jedes Jahr freuen wir uns sehr über euren Besuch in unserem Presshaus 🙂</p>
           <img class="img-fluid"
