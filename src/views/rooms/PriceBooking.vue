@@ -57,7 +57,7 @@
             </tbody>
           </table>
           <p>
-            <small>* Buchbar ab zwei N&auml;chten</small>
+            <small>* Buchbar ab drei N&auml;chten</small>
             <br>
             <small>** Preise pro Person und Nacht, inklusive Fr&uuml;hst&uuml;ck und N&auml;chtigungstaxe</small>
           </p>

@@ -16,10 +16,7 @@
             </p>
             <p>
                 Im gem&uuml;tlichen Kellerst&uuml;berl mit historisch steingew&ouml;lbtem Degustationskeller haben Sie die M&ouml;glichkeit
-                unsere Qualit&auml;tsweine zu verkosten. Gerne kredenzen wir auch eine schmackhafte Weinviertler Winzerjause.*
-                <br>
-                <br>
-                <small>* Nur mit Voranmeldung. Preis nach Vereinbarung!</small>
+                unsere Qualit&auml;tsweine zu verkosten.
             </p>
             <img class="img-fluid center-block rounded"
                      :src="require('../../images/zimmer_1.jpg')"
