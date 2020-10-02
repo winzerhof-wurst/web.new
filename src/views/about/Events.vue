@@ -9,20 +9,6 @@
         </ContentTile>
 
         <ContentTile>
-          <h2>Retzer Landpartie bei den Winzern</h2>
-          <p>
-            <em>Die 51. Retzer Weinwoche hat ihre Siegerweine gekürt!</em><br>
-            Am 29. August 2020 öffnen von wir von 11-19 Uhr für Sie unseren Winzerhof.<br>
-          </p>
-          <p>
-            Alle teilnehmenden Betriebe finden Sie auf <a href="https://www.retzer-weinwoche.at" target="_blank" rel="noopen noreferrer">retzer-weinwoche.at</a>.
-          </p>
-          <p>
-            <i>29. August 2020, Winerhof Wurst, Schrattenthal</i>
-          </p>
-        </ContentTile>
-
-        <ContentTile>
           <h2>Weinherbst bei der Blauen Elf</h2>
           <p>
             Alle Jahre wieder veranstaltet die Blaue Elf ihren Weinfrühling und so dürfen auch wir wieder mit dabei sein.

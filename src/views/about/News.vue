@@ -3,22 +3,6 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-          <h2>Kommendes Wochenende - Retzer Landpartie </h2>
-          <p>Schaut's am Samstag bei uns vorbei und verkostet's neben unserem DAC Champion, dem Weinviertel DAC Hochsteiner, unser gesamtes Sortiment im gemütlichen Innenhof. Wir freuen uns auf euch!</p>
-          <img class="img-fluid"
-                     :src="require('../../images/202008_landpartie.jpg')"
-                     alt="Retzer Landpartie am Winzerhof Wurst">
-        </ContentTile>
-
-        <ContentTile>
-          <h2>Offene Kellertür – Danke!</h2>
-          <p>Wir bedanken uns über diesen Weg für die zahlreichen Gäste der heurigen offenen Kellertür. Wie jedes Jahr freuen wir uns sehr über euren Besuch in unserem Presshaus 🙂</p>
-          <img class="img-fluid"
-                     :src="require('../../images/202008_okt_danke.jpg')"
-                     alt="Getreideernte 2020 Winzerhof Wurst">
-        </ContentTile>
-
-        <ContentTile>
           <h2>Weinviertel DAC Champion 2020</h2>
           <p>Jedes Jahr werden Ende Juni im Zuge der Retzer Weinwoche die Weine der Region ausgekostet und die besten prämiert. Wir dürfen uns heuer über einen Sortensieger erfreuen. Unser Weinviertel DAC Hochsteiner 2019 belegt den 1.Platz in der Kategorie Weinviertel DAC und trägt damit den Namen <em>Weinviertel DAC Champion 2020</em>.<p>
           <p>Wir freuen uns sehr über diese Auszeichnung und hoffen, dass wir Sie am 29. August – nach der offiziellen Preisverleihung – bei uns im Hof begrüßen dürfen!</p>
