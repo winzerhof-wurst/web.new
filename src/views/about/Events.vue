@@ -8,16 +8,6 @@
           </p>
         </ContentTile>
 
-        <ContentTile>
-          <h2>Weinherbst bei der Blauen Elf</h2>
-          <p>
-            Alle Jahre wieder veranstaltet die Blaue Elf ihren Weinfrühling und so dürfen auch wir wieder mit dabei sein.
-          </p>
-          <p>
-            <i>24. Oktober 2020, Teutschmannweg 1, Linz</i>
-          </p>
-        </ContentTile>
-
         <NewsMarketLeonding />
     </Content>
 </template>
