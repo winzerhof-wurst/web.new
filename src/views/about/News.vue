@@ -3,10 +3,9 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-          <h2>Weinlese</h2>
           <img class="img-fluid"
-                     :src="require('../../images/202010_lese.jpg')"
-                     alt="Weinlese 2020 Winzerhof Wurst">
+                     :src="require('../../images/202011_weingarten.jpg')"
+                     alt="Weingarten Winzerhof Wurst">
         </ContentTile>
 
         <ContentTile>
