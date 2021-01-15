@@ -44,18 +44,18 @@ export default {
   },
   data() {
     var marketDates = [
-      { date: new Date(2020, 0, 18) },
-      { date: new Date(2020, 1, 15) },
-      { date: new Date(2020, 2, 21) },
-      { date: new Date(2020, 3, 11), canceled: true },
-      { date: new Date(2020, 4, 16) },
-      { date: new Date(2020, 5, 20) },
-      { date: new Date(2020, 6, 18) },
-      { date: new Date(2020, 7, 8) },
-      { date: new Date(2020, 8, 19) },
-      { date: new Date(2020, 9, 17) },
-      { date: new Date(2020, 10, 21) },
-      { date: new Date(2020, 11, 19) },
+      { date: new Date(2021, 0, 16) },
+      { date: new Date(2021, 1, 20) },
+      { date: new Date(2021, 2, 20) },
+      { date: new Date(2021, 3, 10) },
+      { date: new Date(2021, 4, 15) },
+      { date: new Date(2021, 5, 19) },
+      { date: new Date(2021, 6, 17) },
+      { date: new Date(2021, 7, 21) },
+      { date: new Date(2021, 8, 18) },
+      { date: new Date(2021, 9, 16) },
+      { date: new Date(2021, 10, 20) },
+      { date: new Date(2021, 11, 18) },
     ];
     var today = new Date();
 
