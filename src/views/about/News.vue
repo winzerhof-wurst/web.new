@@ -3,13 +3,9 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-          <p>
-            Gerade in einem besonderen Jahr wie diesem möchten wir uns bei all unseren Kunden für die Treue bedanken.<br>
-            Wir wünschen allen ein frohes Weihnachtsfest und vor allem Gesundheit für das neue Jahr.
-          </p>
           <img class="img-fluid"
-                     :src="require('../../images/202012_weihnachten.jpg')"
-                     alt="Weingarten Winter Winzerhof Wurst">
+                     :src="require('../../images/202101_weingarten.jpg')"
+                     alt="Weingarten Schneiden Winzerhof Wurst">
         </ContentTile>
 
         <ContentTile>
