@@ -3,8 +3,10 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
+          <h2>Jahrgang 2020</h2>
+          <p>Von vielen bereits sehnsüchtig erwartet - jetzt sind sie da. Neben den ersten  Frühlingsboten lässt sich nun auch der neue Jahrgang blicken. Unsere Grünen Veltliner sind abgefüllt und ab sofort bei uns erhältlich. In den kommenden Wochen werden weitere 2020er in die Flasche kommen. Das gesamte aktuelle Sortiment findet Ihr in unserer Weinkarte.</p>
           <img class="img-fluid"
-                     :src="require('../../images/202101_weingarten.jpg')"
+                     :src="require('../../images/202102_dac.jpg')"
                      alt="Weingarten Schneiden Winzerhof Wurst">
         </ContentTile>
 
