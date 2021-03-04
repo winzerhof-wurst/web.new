@@ -3,6 +3,14 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
+          <h2>Anbinden</h2>
+          <p>Nachdem jeder einzelner unserer Rebstöcke auf eine bzw. zwei Fruchtruten zurückgeschnitten wurde, werden diese Ruten nun am Draht angebunden. Dieser Arbeitsschritt bildet die Grundlage für das kommende Weinjahr.</p>
+          <img class="img-fluid"
+                     :src="require('../../images/202103_anbinden.jpg')"
+                     alt="Weinviertel DAC Champion 2020 Winzerhof Wurst">
+        </ContentTile>
+
+        <ContentTile>
           <h2>Jahrgang 2020</h2>
           <p>Von vielen bereits sehnsüchtig erwartet - jetzt sind sie da. Neben den ersten  Frühlingsboten lässt sich nun auch der neue Jahrgang blicken. Unsere Grünen Veltliner sind abgefüllt und ab sofort bei uns erhältlich. In den kommenden Wochen werden weitere 2020er in die Flasche kommen. Das gesamte aktuelle Sortiment findet Ihr in unserer Weinkarte.</p>
           <img class="img-fluid"
