@@ -12,6 +12,11 @@
             <Wine v-for="wine in whiteWines" :key="wine.id" :data="wine"/>
         </ContentTile>
 
+        <ContentTile v-if="sparklingWines.length">
+            <h2>Perlweine</h2>
+            <Wine v-for="wine in sparklingWines" :key="wine.id" :data="wine"/>
+        </ContentTile>
+
         <ContentTile>
             <h2>Rotweine</h2>
             <Wine v-for="wine in redWines" :key="wine.id" :data="wine"/>
@@ -61,6 +66,9 @@ export default {
   computed: {
     whiteWines: function() {
       return this.$store.state.wines.filter(w => w.type === "W");
+    },
+    sparklingWines: function() {
+      return this.$store.state.wines.filter(w => w.type === "PW");
     },
     redWines: function() {
       return this.$store.state.wines.filter(w => w.type === "R");
