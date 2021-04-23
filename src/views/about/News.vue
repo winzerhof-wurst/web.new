@@ -6,7 +6,7 @@
           <h2>Blühendes Weinviertel</h2>
           <p>Die Natur erwacht aus dem Winterschlaf und zeigt sich bereits in voller Blüte. Unsere Reben sind noch Langschläfer und werden etwa in zwei Wochen austreiben.</p>
           <img class="img-fluid"
-                     :src="require('../../images/202104_fruehlingiff.jpg')"
+                     :src="require('../../images/202104_fruehling.jpg')"
                      alt="Weinviertel DAC Champion 2020 Winzerhof Wurst">
         </ContentTile>
 
