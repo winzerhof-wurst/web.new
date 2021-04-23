@@ -3,10 +3,10 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-          <h2>Anbinden</h2>
-          <p>Nachdem jeder einzelner unserer Rebstöcke auf eine bzw. zwei Fruchtruten zurückgeschnitten wurde, werden diese Ruten nun am Draht angebunden. Dieser Arbeitsschritt bildet die Grundlage für das kommende Weinjahr.</p>
+          <h2>Blühendes Weinviertel</h2>
+          <p>Die Natur erwacht aus dem Winterschlaf und zeigt sich bereits in voller Blüte. Unsere Reben sind noch Langschläfer und werden etwa in zwei Wochen austreiben.</p>
           <img class="img-fluid"
-                     :src="require('../../images/202103_anbinden.jpg')"
+                     :src="require('../../images/202104_fruehlingiff.jpg')"
                      alt="Weinviertel DAC Champion 2020 Winzerhof Wurst">
         </ContentTile>
 
