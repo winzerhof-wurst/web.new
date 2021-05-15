@@ -3,11 +3,11 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-          <h2>Blühendes Weinviertel</h2>
-          <p>Die Natur erwacht aus dem Winterschlaf und zeigt sich bereits in voller Blüte. Unsere Reben sind noch Langschläfer und werden etwa in zwei Wochen austreiben.</p>
+          <h2>Austrieb</h2>
+          <p>Durch die warmen Temperaturen und den Regenschauern in den letzten Tagen zeigen nun auch unsere Reben die ersten jungen Triebe und Blättern.</p>
           <img class="img-fluid"
-                     :src="require('../../images/202104_fruehling.jpg')"
-                     alt="Weinviertel DAC Champion 2020 Winzerhof Wurst">
+                     :src="require('../../images/202105_austrieb.jpg')"
+                     alt="Austrieb der Weinreben am Winzerhof Wurst">
         </ContentTile>
 
         <ContentTile>
