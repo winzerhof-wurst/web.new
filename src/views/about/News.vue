@@ -11,6 +11,14 @@
         </ContentTile>
 
         <ContentTile>
+          <h2>Rebblüte</h2>
+          <p>In den Weingärten kann gerade die Rebblüte beobachtet werden. In der Regel wird etwa 100 Tage nach der Blüte der Wein geerntet. Darum wird die Ernte heuer etwa Ende September beginnen</p>
+          <img class="img-fluid"
+                     :src="require('../../images/202106_rebbluete.jpg')"
+                     alt="Weintour Weinviertel 2021">
+        </ContentTile>
+
+        <ContentTile>
           <h2>Urlaub im Weinviertel</h2>
           <p>Nehmen Sie sich ein paar Tage Auszeit und genießen Sie die blühende Landschaft rund um Schrattenthal.</p>
           <img class="img-fluid"
