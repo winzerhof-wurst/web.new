@@ -3,19 +3,14 @@
         <h1>Aktuelles</h1>
 
         <ContentTile>
-          <h2>Weintour Weinviertel</h2>
-          <p>Es ist soweit, das Weinviertel öffnet seine Türen. Wir und unsere Winzerkollegen der Weinstraße Weinviertel möchten Sie zur Weintour am 26. und 27. Juni einladen. Kommen Sie in unseren Hof und verkosten Sie in gemütlicher Atmosphäre unsere Weine.</p>
+          <h2>Einstricken</h2>
+          <p>
+            Derzeit findet man uns im Weingarten beim "Einstricken". Wir sorgen dafür, dass sich alle Triebe im Drahtgerüst befinden und eine hohe und schöne Laubwand bilden.<br>
+            Vor allem unser Hochsteiner macht seinem Namen Ehre und wächst, wie in diesem Bild ersichtlich, hoch hinaus.
+          </p>
           <img class="img-fluid"
-                     :src="require('../../images/202106_weintour.jpg')"
-                     alt="Weintour Weinviertel 2021">
-        </ContentTile>
-
-        <ContentTile>
-          <h2>Rebblüte</h2>
-          <p>In den Weingärten kann gerade die Rebblüte beobachtet werden. In der Regel wird etwa 100 Tage nach der Blüte der Wein geerntet. Darum wird die Ernte heuer etwa Ende September beginnen</p>
-          <img class="img-fluid"
-                     :src="require('../../images/202106_rebbluete.jpg')"
-                     alt="Weintour Weinviertel 2021">
+                     :src="require('../../images/202107_weingarten.jpg')"
+                     alt="Einstricken im Weingarten des Winzerhof Wursts">
         </ContentTile>
 
         <ContentTile>
